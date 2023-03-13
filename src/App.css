@@ -1,4 +1,10 @@
-html{
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Tilt+Neon&display=swap');
+
+
+html {
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Tilt Neon', cursive;
   padding: 0;
   margin: 0;
+  user-select: none;
 }

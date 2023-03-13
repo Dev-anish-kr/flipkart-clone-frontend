@@ -17,13 +17,13 @@ const Navigation = () => {
 
                     </div>
 
-                    <button>login</button>
+                    <button>Login</button>
 
                     <span>Become a Seller</span>
 
                     <span>More</span>
 
-                    <span className='cart'>Cart <ShoppingCartIcon/></span>
+                    <span className='cart'> <ShoppingCartIcon/>Cart</span>
 
 
             </div>
