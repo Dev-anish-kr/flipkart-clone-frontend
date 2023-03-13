@@ -5,7 +5,14 @@
     height: 55px;
     display: flex;
     padding: 0 181px;
+    position: fixed;
+    z-index: 3;
+    width: 100%;
     align-items: center;
+}
+
+.home{
+    padding-top: 4rem;
 }
 
 .navigation .cart {
