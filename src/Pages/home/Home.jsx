@@ -5,7 +5,6 @@ import Coursal from './Coursal'
 import "./homeStyles.css"
 import TopOffer from './topOffer/TopOffer'
 import BankOffer from './BankOffer'
-import Footer from './Footer'
 
 const Home = () => {
     return (
@@ -18,7 +17,7 @@ const Home = () => {
                 </div>
                 <TopOffer/>
                 <BankOffer/>
-                <Footer/>
+                
             </div>
         </div>
     )
