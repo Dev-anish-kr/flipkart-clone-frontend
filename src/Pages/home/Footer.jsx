@@ -122,12 +122,12 @@ const Footer = () => {
               <tbody>
                 <tr>
                   <td>
-                    Flipkart Internet Private Limited, 
+                    Flipkart Internet Private Limited,
                     Buildings Alyssa, Begonia &
                     Clove Embassy Tech Village,
                     Outer Ring Road, Devarabeesanahalli Village,
                     Bengaluru, 560103,
-                    Karnataka, India 
+                    Karnataka, India
                   </td>
                   <td>
                     Flipkart Internet Private Limited,
@@ -140,11 +140,11 @@ const Footer = () => {
 
                     Bengaluru, 560103,
 
-                    Karnataka, India 
+                    Karnataka, India
 
-                    CIN : U51109KA2012PTC066107 
+                    CIN : U51109KA2012PTC066107
 
-                    Telephone: 044-45614700 
+                    Telephone: 044-45614700
                   </td>
                 </tr>
               </tbody>
@@ -154,10 +154,10 @@ const Footer = () => {
       </div>
       <hr />
       <div className="footer-bootom">
-        <p className='fb-item'><WorkIcon sx={{ color: "#FFC800" }} /> Become a Seller</p>
-        <p className='fb-item'><StarsIcon sx={{ color: "#FFC800" }} /> Advertise</p>
-        <p className='fb-item'><CardGiftcardIcon sx={{ color: "#FFC800" }} /> Gift Cards</p>
-        <p className='fb-item'><HelpRoundedIcon sx={{ color: "#FFC800" }} /> Help Center</p>
+        <p className='fb-item'><WorkIcon sx={{ color: "#FFC800", width:"1rem" }} /> Become a Seller</p>
+        <p className='fb-item'><StarsIcon sx={{ color: "#FFC800" , width:"1rem" }} /> Advertise</p>
+        <p className='fb-item'><CardGiftcardIcon sx={{ color: "#FFC800" , width:"1rem" }} /> Gift Cards</p>
+        <p className='fb-item'><HelpRoundedIcon sx={{ color: "#FFC800" , width:"1rem" }} /> Help Center</p>
         <p className='fb-item'>&copy; flipkart-clone.netlify.com 2023</p>
         <img src="assets/Home/ft-cards.png" alt="" className="fb-img" />
       </div>

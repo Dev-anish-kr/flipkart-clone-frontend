@@ -85,6 +85,9 @@ input:focus {
     border-bottom: 1px solid #DEE0E3;
 
 }
+.red-comp{
+    cursor: pointer;
+}
 
 .redirector .red-comp {
     display: flex;
@@ -345,7 +348,7 @@ hr{
 }
 
 .footer-bootom{
-height: 25px;
+height: 67px;
 font-size: 0.85rem;
 font-weight: 500;
 display: flex;

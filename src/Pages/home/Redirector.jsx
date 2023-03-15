@@ -1,10 +1,14 @@
 import React from 'react'
 import "./homeStyles.css"
+import { useNavigate } from 'react-router-dom';
 
 const Redirector = () => {
+  const navigate=useNavigate();
   return (
     <div className='redirector'>
-      <div className="red-comp">
+      <div onClick={()=>{
+        navigate("/categories")
+      }} className="red-comp">
         <img src="assets/Home/offer.webp" alt="offer img" />
         <p>Top Offers</p>
       </div>
