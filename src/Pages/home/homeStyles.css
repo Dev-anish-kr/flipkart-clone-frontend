@@ -11,7 +11,7 @@
     align-items: center;
 }
 
-.home{
+.home {
     padding-top: 4rem;
 }
 
@@ -85,7 +85,8 @@ input:focus {
     border-bottom: 1px solid #DEE0E3;
 
 }
-.red-comp{
+
+.red-comp {
     cursor: pointer;
 }
 
@@ -307,7 +308,7 @@ input:focus {
     color: #878787;
 }
 
-.footer-left{
+.footer-left {
     width: 819px;
 }
 
@@ -336,49 +337,116 @@ input:focus {
     flex-direction: row;
     justify-content: space-between;
 }
-hr{
+
+hr {
     width: 100%;
     margin: 1rem 0;
 }
-.footer-top{
+
+.footer-top {
     height: 224px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.footer-bootom{
-height: 67px;
-font-size: 0.85rem;
-font-weight: 500;
-display: flex;
-align-items: center;
-flex-direction: row;
-justify-content: space-around;
-}
-.footer-bootom .fb-img{
-height: 38px;
-width: 395px;
-margin-bottom: 15px;
+.footer-bootom {
+    height: 67px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
-.footer-right{
+.footer-bootom .fb-img {
+    height: 38px;
+    width: 395px;
+    margin-bottom: 15px;
+}
+
+.footer-right {
     width: 623px;
 }
-.footer-right table{
+
+.footer-right table {
     margin: 0 2rem;
 }
-.footer-right table tbody{
+
+.footer-right table tbody {
     width: 518px;
     font-size: 0.8rem;
     font-weight: 400;
 }
-.footer-right table thead{
+
+.footer-right table thead {
     width: 518px;
     font-size: 0.8rem;
     font-weight: 400;
     color: #878787;
 }
-.footer-right td{
+
+.footer-right td {
     padding: 0.4rem 1rem;
+}
+
+
+
+/* Login Page */
+
+.login-dialogue {
+    display: flex;
+    flex-direction: row;
+    height: 600;
+}
+
+.login-dialogue .ld-left {
+    background: #2874F0;
+    width: 214px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    height: 480px;
+    color: #fff;
+}
+
+.login-dialogue .ld-right {
+    padding: 3.5rem 2rem;
+    background: #fff;
+
+}
+
+
+
+.login-dialogue .ld-left p {
+    font-weight: 400;
+}
+
+.login-dialogue .ld-left img {
+    width: 174px;
+}
+
+.login-dialogue .ld-right p {
+    font-size: 0.8rem;
+    color: #878787;
+    font-weight: 500;
+}
+.login-dialogue .ld-right span {
+    color: #2874F0;
+    cursor: pointer;
+}
+
+.login-dialogue .ld-right button {
+    height: 57px;
+    width: 100%;
+    border: none;
+    margin-top: 1rem;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border: none;
+    background: #FB641B;
 }
