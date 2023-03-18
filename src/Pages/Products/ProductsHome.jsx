@@ -1,12 +1,13 @@
 import React from 'react'
+
 import "./ProductStyles.css"
 import ProductCard from './ProductCard'
 import ProductFliter from './ProductFilter.jsx/ProductFliter'
 
 
 
-const ProductsHome = ({products}) => {
 
+const ProductsHome = ({products}) => {
     
 
     return (
@@ -25,11 +26,10 @@ const ProductsHome = ({products}) => {
                     <ProductFliter />
                 </div>
                 <div className="products-list">
-                    <ProductCard product={products[0]} />
-                    <ProductCard product={products[0]} />
-                    <ProductCard product={products[0]} />
-                    <ProductCard product={products[0]} />
-                    <ProductCard product={products[0]} />
+                    {products?.map((product,idx)=>{
+                     return <ProductCard key={idx} product={product} />
+
+                    })}
                 </div>
             </div>
         </div>

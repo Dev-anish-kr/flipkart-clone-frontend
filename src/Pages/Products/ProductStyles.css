@@ -38,6 +38,8 @@
 .product-card {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
     padding: 1rem;
     background: #fff;
     margin: 0.5rem;
@@ -51,6 +53,10 @@
 
 .product-card .product-card-left .left {
     flex: 234px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 350px;
 }
 
 .product-card .product-card-left .right {

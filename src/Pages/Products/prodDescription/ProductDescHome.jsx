@@ -20,6 +20,8 @@ const ProductDescHome = ({ product }) => {
     setImageHover(img);
   }
 
+  // console.log(product);
+
   return (
     <div className='prod-desc-outer'>
       <div className='prod-desc'>
@@ -29,10 +31,12 @@ const ProductDescHome = ({ product }) => {
               return (
                 <div key={idx}>
                   <div onMouseOver={()=>{handleMouseDown(img)}} className="image">
-                    <img src={img.link} style={img.size_2} alt="" />
+                    <img src={img.link} style={img.size_2} alt={img.link} />
                   </div>
                 </div>
+                
               )
+              
             })}
           </div>
           <div className="l-right">
@@ -67,11 +71,7 @@ const ProductDescHome = ({ product }) => {
           </div>
           <div className="brand-seller">
             <div className="table-create">
-              <div className="bl-outer">
-                <div className='brand-logo'>
-                  <img style={product.brandLogo.size} src={product.brandLogo.link} alt="" />
-                </div>
-              </div>
+              <p className="bs-left">Warrenty</p>
               <p className="warrenty">{product.warrenty}</p>
             </div>
             <div className="table-create">
