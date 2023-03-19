@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-
+import { useNavigate } from 'react-router-dom';
 import SearchIcon from '@mui/icons-material/Search';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import Dialog from '@mui/material/Dialog';
@@ -9,7 +9,8 @@ import TextField from "@mui/material/TextField";
 
 import "./homeStyles.css"
 
-const Navigation = () => {
+const Navigation = ({cartValue}) => {
+    const Navigate=useNavigate();
 
     const [open, setOpen] = React.useState(false);
 
@@ -30,6 +31,7 @@ const Navigation = () => {
     }
     const handleName=(e)=>{
         setName(inpName)
+        handleClose();
     }
 
     return (
@@ -49,7 +51,9 @@ const Navigation = () => {
 
                 <span>More</span>
 
-                <span className='cart'> <ShoppingCartIcon />Cart</span>
+                <span onClick={()=>{
+                    Navigate("/cart")
+                }} className='cart'> <ShoppingCartIcon /><span className='cartvalue'>{cartValue}</span> Cart</span>
 
 
             </div>

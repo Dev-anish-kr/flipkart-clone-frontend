@@ -9,7 +9,7 @@ import Star from '@mui/icons-material/Star';
 import "./prodStyles.css"
 import { LocationOn } from '@mui/icons-material';
 
-const ProductDescHome = ({ product }) => {
+const ProductDescHome = ({ product, cartItemSetter }) => {
   const highlights = product.details?.filter((_, idx) => {
     return idx !== product.details.length - 1;
   })
@@ -18,6 +18,10 @@ const ProductDescHome = ({ product }) => {
 
   const handleMouseDown=(img)=>{
     setImageHover(img);
+  }
+
+  const handleAddCart=()=>{
+    cartItemSetter(product)
   }
 
   // console.log(product);
@@ -44,7 +48,7 @@ const ProductDescHome = ({ product }) => {
               <img src={imageHover.link} style={imageHover.size_3} alt="" />
             </div>
             <div className="buy-now">
-              <button className='b1'><ShoppingCartIcon /> ADD TO CART</button>
+              <button onClick={handleAddCart} className='b1'><ShoppingCartIcon /> ADD TO CART</button>
               <button className='b2'><FlashOnIcon /> BUY NOW</button>
             </div>
           </div>

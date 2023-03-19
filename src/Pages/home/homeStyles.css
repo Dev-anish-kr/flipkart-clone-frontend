@@ -18,6 +18,8 @@
 .navigation .cart {
     display: flex;
     justify-content: space-between;
+    position: relative;
+    cursor: pointer;
 }
 
 .navigation {
@@ -70,6 +72,23 @@
 
 input:focus {
     outline: none;
+}
+
+.navigation .cartvalue {
+    font-weight: 600;
+    font-size: 0.8rem;
+    height: 18px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 7px;
+    border: 1px solid #fff;
+    top: -8px;
+    left: 8px;
+    width: 18px;
+    background: #FB641B;
+
+    position: absolute;
 }
 
 
@@ -287,6 +306,7 @@ input:focus {
     color: #FFF;
     margin-top: 2rem;
     padding: 2rem;
+    position: relative;
     overflow-y: hidden;
 }
 
@@ -433,6 +453,7 @@ hr {
     color: #878787;
     font-weight: 500;
 }
+
 .login-dialogue .ld-right span {
     color: #2874F0;
     cursor: pointer;

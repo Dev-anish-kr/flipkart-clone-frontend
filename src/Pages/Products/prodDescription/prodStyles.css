@@ -189,6 +189,9 @@ border: 1.5px solid #2F74F0;
 .table-create .tc-right{
     width: 690px;
 }
+.tc-desc, .warrenty{
+    font-size: 0.9rem;
+}
 
 .table-create ul {
     list-style: none;
