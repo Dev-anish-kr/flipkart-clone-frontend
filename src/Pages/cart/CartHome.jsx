@@ -1,7 +1,9 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 import CartCard from './CartCard'
 import "./cartStyle.css"
 const CartHome = ({ cartItems }) => {
+    const Navigate=useNavigate();
     var totalPrice = 0
     return (
         <div className='cart-home-outer'>
@@ -14,7 +16,7 @@ const CartHome = ({ cartItems }) => {
                         return <CartCard key={idx} cartItem={citem} />
                     })}
                     <div className="place-order">
-                        <button>PLACE ORDER</button>
+                        <button onClick={()=>Navigate("/checkout")}>PLACE ORDER</button>
                     </div>
                 </div>
                 ):<h1>Your Cart Is Empty</h1>

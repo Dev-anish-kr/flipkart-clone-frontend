@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { useNavigate } from 'react-router-dom';
 import ProdSpecification from './ProdSpecification'
 import FlashOnIcon from '@mui/icons-material/FlashOn';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
@@ -10,6 +11,7 @@ import "./prodStyles.css"
 import { LocationOn } from '@mui/icons-material';
 
 const ProductDescHome = ({ product, cartItemSetter }) => {
+  const navigate=useNavigate();
   const highlights = product.details?.filter((_, idx) => {
     return idx !== product.details.length - 1;
   })
@@ -22,6 +24,11 @@ const ProductDescHome = ({ product, cartItemSetter }) => {
 
   const handleAddCart=()=>{
     cartItemSetter(product)
+  }
+
+  const handleBuyNow =async()=>{
+    await cartItemSetter(product);
+    navigate("/checkout")
   }
 
   // console.log(product);
@@ -49,7 +56,7 @@ const ProductDescHome = ({ product, cartItemSetter }) => {
             </div>
             <div className="buy-now">
               <button onClick={handleAddCart} className='b1'><ShoppingCartIcon /> ADD TO CART</button>
-              <button className='b2'><FlashOnIcon /> BUY NOW</button>
+              <button onClick={handleBuyNow} className='b2'><FlashOnIcon /> BUY NOW</button>
             </div>
           </div>
         </div>

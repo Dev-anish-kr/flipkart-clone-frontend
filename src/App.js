@@ -7,10 +7,10 @@ import Navigation from './Pages/home/Navigation';
 import Footer from './Pages/home/Footer'
 import ProductsHome from './Pages/Products/ProductsHome';
 import ProductDescHome from './Pages/Products/prodDescription/ProductDescHome';
-
 import products from "./Pages/ProductData/productData"
 import CartHome from './Pages/cart/CartHome';
 import { useState } from 'react';
+import CheckoutHome from './Pages/checkout/CheckoutHome';
 
 function App() {
 
@@ -34,6 +34,7 @@ function App() {
                     })
                 }
                 <Route exact path="/cart" element={<CartHome cartItems={cartItems} />} />
+                <Route exact path="/checkout" element={<CheckoutHome cartItems={cartItems} />} />
             </Routes>
             <Footer />
         </main>
