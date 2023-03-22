@@ -22,6 +22,7 @@ const Navigation = ({ cartValue, handleSearch }) => {
         if (e.key === "Enter" || e.target.name === "clickIcon") {
             if (e.target.value) {
                 handleSearch(search.toLowerCase())
+                setSearch("");
             } else {
                 swal("Ohho", "Enter any product...", "error")
             }
@@ -30,6 +31,7 @@ const Navigation = ({ cartValue, handleSearch }) => {
     const handleSearchInput2 = (e) => {
         if (search) {
             handleSearch(search.toLowerCase())
+            setSearch("");
         } else {
             swal("Ohho", "Enter any product...", "error")
         }
@@ -61,7 +63,7 @@ const Navigation = ({ cartValue, handleSearch }) => {
             <img className='brand-img' src="assets/Home/Brand.png" alt="Brand img" />
             <div className='navigation'>
                 <div className="search-bar">
-                    <input onKeyDown={handleSearchInput} onChange={(e) => { setSearch(e.target.value) }} type="text" placeholder='Search for products, brands and more' />
+                    <input value={search} onKeyDown={handleSearchInput} onChange={(e) => { setSearch(e.target.value) }} type="text" placeholder='Search for products, brands and more' />
                     <SearchIcon onClick={handleSearchInput2} />
 
                 </div>
