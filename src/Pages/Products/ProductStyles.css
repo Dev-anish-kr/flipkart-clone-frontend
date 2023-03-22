@@ -151,6 +151,13 @@ p {
     padding: 1rem;
 }
 
+.product-filter .brand{
+    padding: 1rem;
+}
+.product-filter .brand span,.product-filter .category span::first-letter {
+    text-transform:capitalize;
+}
+
 .product-filter hr {
     color: #878787;
 }

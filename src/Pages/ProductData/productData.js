@@ -8,7 +8,7 @@ const products = [
         uid: "p0001",
         pid: "s001",
         tags: [
-            "mobile", "smartphone", "phone", "samsung", "samsung mobile"
+            "mobile", "samsung galaxy a73", "smartphone", "phone", "samsung", "samsung mobile"
         ],
         images: {
             main: {
@@ -191,7 +191,7 @@ const products = [
         uid: "p0002",
         pid: "s002",
         tags: [
-            "mobile", "smartphone", "phone", "samsung", "samsung mobile"
+            "mobile","samsung galaxy f23", "smartphone", "phone", "samsung", "samsung mobile"
         ],
         images: {
             main: {
@@ -370,7 +370,7 @@ const products = [
         uid: "p0003",
         pid: "s002",
         tags: [
-            "mobile", "smartphone", "phone", "samsung", "samsung mobile"
+            "mobile","samsung galaxy s21", "smartphone", "phone", "samsung", "samsung mobile"
         ],
         images: {
             main: {
@@ -537,7 +537,7 @@ const products = [
         uid: "p0004",
         pid: "s002",
         tags: [
-            "mobile", "smartphone", "phone", "samsung", "samsung mobile"
+            "mobile","samsung galaxy a53" ,"smartphone", "phone", "samsung", "samsung mobile"
         ],
         images: {
             main: {
@@ -727,7 +727,7 @@ const products = [
         uid: "p0005",
         pid: "o001",
         tags: [
-            "mobile", "smartphone", "phone", "samsung", "samsung mobile"
+            "tablets", "pad", "oppo", "oppo pad air", "oppo tablet"
         ],
         images: {
             main: {
@@ -893,7 +893,7 @@ const products = [
         uid: "p0006",
         pid: "o001",
         tags: [
-            "mobile", "smartphone", "phone", "samsung", "samsung mobile"
+            "tablets", "pad", "redmi tablet", "redmi pad", "redmi"
         ],
         images: {
             main: {
@@ -1066,7 +1066,7 @@ const products = [
         uid: "p0007",
         pid: "o001",
         tags: [
-            "mobile", "smartphone", "phone", "samsung", "samsung mobile"
+            "tablet", "sumsung galaxy tab", "samsung pad", "samsung", "samsung tablet"
         ],
         images: {
             main: {
@@ -1255,12 +1255,12 @@ const products = [
     },
     {
         name: "APPLE iPad (9th Gen) 64 GB ROM 10.2 inch with Wi-Fi+5G (Silver)",
-        brand: "oppo",
+        brand: "apple",
         category: "tablet",
         uid: "p0008",
         pid: "o001",
         tags: [
-            "mobile", "smartphone", "phone", "samsung", "samsung mobile"
+            "tablet", "apple ipad", "ipad", "apple", "apple tablets"
         ],
         images: {
             main: {
@@ -1443,11 +1443,11 @@ const products = [
         uid: "p0009",
         pid: "b001",
         tags: [
-            "mobile", "smartphone", "phone", "samsung", "samsung mobile"
+            "tv", "smart tv", "benq ex led tv", "benq", "benq monitor"
         ],
         images: {
             main: {
-                link: "assets/Product/TV_Apl/BenQTv/main/main.webp",
+                link: "assets/Product/TV_Apl/TV/BenQTv/main/main.webp",
                 size_c: {
                     height: "120px"
                 },
@@ -1464,7 +1464,7 @@ const products = [
             },
             other: [
                 {
-                    link: "assets/Product/TV_Apl/BenQTv/main/main.webp",
+                    link: "assets/Product/TV_Apl/TV/BenQTv/main/main.webp",
                     size_2: {
                         height: "31px",
                     },
@@ -1473,7 +1473,7 @@ const products = [
                     },
                 },
                 {
-                    link: "assets/Product/TV_Apl/BenQTv/other/1.webp",
+                    link: "assets/Product/TV_Apl/TV/BenQTv/other/1.webp",
                     size_2: {
                         height: "54px",
                     },
@@ -1482,7 +1482,7 @@ const products = [
                     }
                 },
                 {
-                    link: "assets/Product/TV_Apl/BenQTv/other/2.webp",
+                    link: "assets/Product/TV_Apl/TV/BenQTv/other/2.webp",
                     size_2: {
                         height: "54px",
                     },
@@ -1491,7 +1491,7 @@ const products = [
                     }
                 },
                 {
-                    link: "assets/Product/TV_Apl/BenQTv/other/3.webp",
+                    link: "assets/Product/TV_Apl/TV/BenQTv/other/3.webp",
                     size_2: {
                         height: "54px",
                     },
@@ -1500,7 +1500,7 @@ const products = [
                     }
                 },
                 {
-                    link: "assets/Product/TV_Apl/BenQTv/other/4.webp",
+                    link: "assets/Product/TV_Apl/TV/BenQTv/other/4.webp",
                     size_2: {
                         height: "54px",
                     },
@@ -1509,7 +1509,7 @@ const products = [
                     }
                 },
                 {
-                    link: "assets/Product/TV_Apl/BenQTv/other/5.webp",
+                    link: "assets/Product/TV_Apl/TV/BenQTv/other/5.webp",
                     size_2: {
                         height: "54px",
                     },
@@ -1518,7 +1518,7 @@ const products = [
                     }
                 },
                 {
-                    link: "assets/Product/TV_Apl/BenQTv/other/6.webp",
+                    link: "assets/Product/TV_Apl/TV/BenQTv/other/6.webp",
                     size_2: {
                         height: "54px",
                     },
@@ -1528,7 +1528,7 @@ const products = [
                 },
 
             ],
-            logo: "assets/Product/TV_Apl/BenQTv/b-logo/b-logo.webp"
+            logo: "assets/Product/TV_Apl/TV/BenQTv/b-logo/b-logo.webp"
         },
         price: "₹31,990",
         price_value: 31990,
@@ -1613,16 +1613,16 @@ const products = [
     },
     {
         name: "OnePlus Y1S 108 cm (43 inch) Full HD LED Smart Android TV with Android 11 and Bezel-Less Frame",
-        brand: "BenQ",
+        brand: "oneplus",
         category: "tv",
         uid: "p0010",
         pid: "b001",
         tags: [
-            "mobile", "smartphone", "phone", "samsung", "samsung mobile"
+            "tv", "smart tv", "oneplus", "oneplus tv", "one plus y1s"
         ],
         images: {
             main: {
-                link: "assets/Product/TV_Apl/onePlusY1s/main/main.webp",
+                link: "assets/Product/TV_Apl/TV/onePlusY1s/main/main.webp",
                 size_c: {
                     height: "120px"
                 },
@@ -1639,7 +1639,7 @@ const products = [
             },
             other: [
                 {
-                    link: "assets/Product/TV_Apl/onePlusY1s/main/main.webp",
+                    link: "assets/Product/TV_Apl/TV/onePlusY1s/main/main.webp",
                     size_2: {
                         height: "31px",
                     },
@@ -1648,7 +1648,7 @@ const products = [
                     },
                 },
                 {
-                    link: "assets/Product/TV_Apl/onePlusY1s/other/1.webp",
+                    link: "assets/Product/TV_Apl/TV/onePlusY1s/other/1.webp",
                     size_2: {
                         height: "54px",
                     },
@@ -1657,7 +1657,7 @@ const products = [
                     }
                 },
                 {
-                    link: "assets/Product/TV_Apl/onePlusY1s/other/2.webp",
+                    link: "assets/Product/TV_Apl/TV/onePlusY1s/other/2.webp",
                     size_2: {
                         height: "54px",
                     },
@@ -1666,7 +1666,7 @@ const products = [
                     }
                 },
                 {
-                    link: "assets/Product/TV_Apl/onePlusY1s/other/3.webp",
+                    link: "assets/Product/TV_Apl/TV/onePlusY1s/other/3.webp",
                     size_2: {
                         height: "54px",
                     },
@@ -1675,7 +1675,7 @@ const products = [
                     }
                 },
                 {
-                    link: "assets/Product/TV_Apl/onePlusY1s/other/4.webp",
+                    link: "assets/Product/TV_Apl/TV/onePlusY1s/other/4.webp",
                     size_2: {
                         height: "35px",
                     },
@@ -1684,7 +1684,7 @@ const products = [
                     }
                 },
                 {
-                    link: "assets/Product/TV_Apl/onePlusY1s/other/5.webp",
+                    link: "assets/Product/TV_Apl/TV/onePlusY1s/other/5.webp",
                     size_2: {
                         height: "43px",
                     },
@@ -1693,7 +1693,7 @@ const products = [
                     }
                 },
                 {
-                    link: "assets/Product/TV_Apl/onePlusY1s/other/6.webp",
+                    link: "assets/Product/TV_Apl/TV/onePlusY1s/other/6.webp",
                     size_2: {
                         height: "35px",
                     },
@@ -1792,16 +1792,16 @@ const products = [
     },
     {
         name: "Mi 5A 80 cm (32 inch) HD Ready LED Smart Android TV with Dolby Audio (2022 Model)",
-        brand: "BenQ",
+        brand: "Mi",
         category: "tv",
         uid: "p0011",
         pid: "b001",
         tags: [
-            "mobile", "smartphone", "phone", "samsung", "samsung mobile"
+            "mi tv", "smart tv", "mi 5a", "mi", "mi smart tv"
         ],
         images: {
             main: {
-                link: "assets/Product/TV_Apl/MI5A/main/main.webp",
+                link: "assets/Product/TV_Apl/TV/MI5A/main/main.webp",
                 size_c: {
                     height: "120px"
                 },
@@ -1818,7 +1818,7 @@ const products = [
             },
             other: [
                 {
-                    link: "assets/Product/TV_Apl/MI5A/main/main.webp",
+                    link: "assets/Product/TV_Apl/TV/MI5A/main/main.webp",
                     size_2: {
                         height: "31px",
                     },
@@ -1827,7 +1827,7 @@ const products = [
                     },
                 },
                 {
-                    link: "assets/Product/TV_Apl/MI5A/other/1.webp",
+                    link: "assets/Product/TV_Apl/TV/MI5A/other/1.webp",
                     size_2: {
                         height: "54px",
                     },
@@ -1836,7 +1836,7 @@ const products = [
                     }
                 },
                 {
-                    link: "assets/Product/TV_Apl/MI5A/other/2.webp",
+                    link: "assets/Product/TV_Apl/TV/MI5A/other/2.webp",
                     size_2: {
                         height: "54px",
                     },
@@ -1845,7 +1845,7 @@ const products = [
                     }
                 },
                 {
-                    link: "assets/Product/TV_Apl/MI5A/other/3.webp",
+                    link: "assets/Product/TV_Apl/TV/MI5A/other/3.webp",
                     size_2: {
                         height: "54px",
                     },
@@ -1854,7 +1854,7 @@ const products = [
                     }
                 },
                 {
-                    link: "assets/Product/TV_Apl/MI5A/other/4.webp",
+                    link: "assets/Product/TV_Apl/TV/MI5A/other/4.webp",
                     size_2: {
                         height: "35px",
                     },
@@ -1863,7 +1863,7 @@ const products = [
                     }
                 },
                 {
-                    link: "assets/Product/TV_Apl/MI5A/other/5.webp",
+                    link: "assets/Product/TV_Apl/TV/MI5A/other/5.webp",
                     size_2: {
                         height: "43px",
                     },
@@ -1872,7 +1872,7 @@ const products = [
                     }
                 },
                 {
-                    link: "assets/Product/TV_Apl/MI5A/other/6.webp",
+                    link: "assets/Product/TV_Apl/TV/MI5A/other/6.webp",
                     size_2: {
                         height: "35px",
                     },
@@ -1971,7 +1971,7 @@ const products = [
     },
     {
         name: "acer I Series 109 cm (43 inch) Ultra HD (4K) LED Smart Android TV with Android 11, 30W Dolby Audio, ME...",
-        brand: "BenQ",
+        brand: "acer",
         category: "tv",
         uid: "p0012",
         pid: "b001",
@@ -1980,7 +1980,7 @@ const products = [
         ],
         images: {
             main: {
-                link: "assets/Product/TV_Apl/accerS109/main/main.webp",
+                link: "assets/Product/TV_Apl/TV/accerS109/main/main.webp",
                 size_c: {
                     height: "120px"
                 },
@@ -1997,7 +1997,7 @@ const products = [
             },
             other: [
                 {
-                    link: "assets/Product/TV_Apl/accerS109/main/main.webp",
+                    link: "assets/Product/TV_Apl/TV/accerS109/main/main.webp",
                     size_2: {
                         height: "31px",
                     },
@@ -2006,7 +2006,7 @@ const products = [
                     },
                 },
                 {
-                    link: "assets/Product/TV_Apl/accerS109/other/1.webp",
+                    link: "assets/Product/TV_Apl/TV/accerS109/other/1.webp",
                     size_2: {
                         height: "54px",
                     },
@@ -2015,7 +2015,7 @@ const products = [
                     }
                 },
                 {
-                    link: "assets/Product/TV_Apl/accerS109/other/2.webp",
+                    link: "assets/Product/TV_Apl/TV/accerS109/other/2.webp",
                     size_2: {
                         height: "54px",
                     },
@@ -2024,7 +2024,7 @@ const products = [
                     }
                 },
                 {
-                    link: "assets/Product/TV_Apl/accerS109/other/3.webp",
+                    link: "assets/Product/TV_Apl/TV/accerS109/other/3.webp",
                     size_2: {
                         height: "54px",
                     },
@@ -2033,7 +2033,7 @@ const products = [
                     }
                 },
                 {
-                    link: "assets/Product/TV_Apl/accerS109/other/4.webp",
+                    link: "assets/Product/TV_Apl/TV/accerS109/other/4.webp",
                     size_2: {
                         height: "46px",
                     },
@@ -2042,7 +2042,7 @@ const products = [
                     }
                 },
                 {
-                    link: "assets/Product/TV_Apl/accerS109/other/5.webp",
+                    link: "assets/Product/TV_Apl/TV/accerS109/other/5.webp",
                     size_2: {
                         height: "43px",
                     },
@@ -2051,7 +2051,7 @@ const products = [
                     }
                 },
                 {
-                    link: "assets/Product/TV_Apl/accerS109/other/6.webp",
+                    link: "assets/Product/TV_Apl/TV/accerS109/other/6.webp",
                     size_2: {
                         height: "53px",
                     },
@@ -2163,7 +2163,7 @@ const products = [
         ],
         images: {
             main: {
-                link: "assets/Product/Electronics/realme-lap/main/main.webp",
+                link: "assets/Product/Electronics/laptops/realme-lap/main/main.webp",
                 size_c: {
                     height: "120px"
                 },
@@ -2180,7 +2180,7 @@ const products = [
             },
             other: [
                 {
-                    link: "assets/Product/Electronics/realme-lap/main/main.webp",
+                    link: "assets/Product/Electronics/laptops/realme-lap/main/main.webp",
                     size_2: {
                         height: "31px",
                     },
@@ -2189,7 +2189,7 @@ const products = [
                     },
                 },
                 {
-                    link: "assets/Product/Electronics/realme-lap/other/1.webp",
+                    link: "assets/Product/Electronics/laptops/realme-lap/other/1.webp",
                     size_2: {
                         height: "54px",
                     },
@@ -2198,7 +2198,7 @@ const products = [
                     }
                 },
                 {
-                    link: "assets/Product/Electronics/realme-lap/other/2.webp",
+                    link: "assets/Product/Electronics/laptops/realme-lap/other/2.webp",
                     size_2: {
                         height: "54px",
                     },
@@ -2207,7 +2207,7 @@ const products = [
                     }
                 },
                 {
-                    link: "assets/Product/Electronics/realme-lap/other/3.webp",
+                    link: "assets/Product/Electronics/laptops/realme-lap/other/3.webp",
                     size_2: {
                         height: "54px",
                     },
@@ -2216,7 +2216,7 @@ const products = [
                     }
                 },
                 {
-                    link: "assets/Product/Electronics/realme-lap/other/4.webp",
+                    link: "assets/Product/Electronics/laptops/realme-lap/other/4.webp",
                     size_2: {
                         height: "26px",
                     },
@@ -2225,7 +2225,7 @@ const products = [
                     }
                 },
                 {
-                    link: "assets/Product/Electronics/realme-lap/other/5.webp",
+                    link: "assets/Product/Electronics/laptops/realme-lap/other/5.webp",
                     size_2: {
                         height: "26px",
                     },
@@ -2234,7 +2234,7 @@ const products = [
                     }
                 },
                 {
-                    link: "assets/Product/Electronics/realme-lap/other/7.webp",
+                    link: "assets/Product/Electronics/laptops/realme-lap/other/7.webp",
                     size_2: {
                         height: "26px",
                     },
@@ -2244,7 +2244,7 @@ const products = [
                 },
 
             ],
-            logo: "assets/Product/Electronics/realme-lap/b-logo/b-logo.webp"
+            logo: "assets/Product/Electronics/laptops/realme-lap/b-logo/b-logo.webp"
         },
         price: "₹59,990",
         price_value: 59990,
@@ -2343,7 +2343,7 @@ const products = [
     ,
     {
         name: "ASUS TUF Gaming A17 with 90Whr Battery Ryzen 5 Hexa Core AMD R5-4600H - (8 GB/512 GB SSD/Windows 11 Ho...",
-        brand: "realme",
+        brand: "asus",
         category: "labtop",
         uid: "p0014",
         pid: "l001",
@@ -2352,7 +2352,7 @@ const products = [
         ],
         images: {
             main: {
-                link: "assets/Product/Electronics/ASUSTUFFA17/main/main.webp",
+                link: "assets/Product/Electronics/laptops/ASUSTUFFA17/main/main.webp",
                 size_c: {
                     height: "120px"
                 },
@@ -2369,7 +2369,7 @@ const products = [
             },
             other: [
                 {
-                    link: "assets/Product/Electronics/ASUSTUFFA17/main/main.webp",
+                    link: "assets/Product/Electronics/laptops/ASUSTUFFA17/main/main.webp",
                     size_2: {
                         height: "40px",
                     },
@@ -2378,7 +2378,7 @@ const products = [
                     },
                 },
                 {
-                    link: "assets/Product/Electronics/ASUSTUFFA17/other/1.webp",
+                    link: "assets/Product/Electronics/laptops/ASUSTUFFA17/other/1.webp",
                     size_2: {
                         height: "54px",
                     },
@@ -2387,7 +2387,7 @@ const products = [
                     }
                 },
                 {
-                    link: "assets/Product/Electronics/ASUSTUFFA17/other/2.webp",
+                    link: "assets/Product/Electronics/laptops/ASUSTUFFA17/other/2.webp",
                     size_2: {
                         height: "54px",
                     },
@@ -2396,7 +2396,7 @@ const products = [
                     }
                 },
                 {
-                    link: "assets/Product/Electronics/ASUSTUFFA17/other/3.webp",
+                    link: "assets/Product/Electronics/laptops/ASUSTUFFA17/other/3.webp",
                     size_2: {
                         height: "54px",
                     },
@@ -2405,7 +2405,7 @@ const products = [
                     }
                 },
                 {
-                    link: "assets/Product/Electronics/ASUSTUFFA17/other/4.webp",
+                    link: "assets/Product/Electronics/laptops/ASUSTUFFA17/other/4.webp",
                     size_2: {
                         height: "54px",
                     },
@@ -2414,7 +2414,7 @@ const products = [
                     }
                 },
                 {
-                    link: "assets/Product/Electronics/ASUSTUFFA17/other/5.webp",
+                    link: "assets/Product/Electronics/laptops/ASUSTUFFA17/other/5.webp",
                     size_2: {
                         height: "54px",
                     },
@@ -2423,7 +2423,7 @@ const products = [
                     }
                 },
                 {
-                    link: "assets/Product/Electronics/ASUSTUFFA17/other/6.webp",
+                    link: "assets/Product/Electronics/laptops/ASUSTUFFA17/other/6.webp",
                     size_2: {
                         height: "54px",
                     },
@@ -2563,7 +2563,7 @@ const products = [
         ],
         images: {
             main: {
-                link: "assets/Product/Electronics/asusV15/main/main.webp",
+                link: "assets/Product/Electronics/laptops/asusV15/main/main.webp",
                 size_c: {
                     height: "120px"
                 },
@@ -2580,7 +2580,7 @@ const products = [
             },
             other: [
                 {
-                    link: "assets/Product/Electronics/asusV15/main/main.webp",
+                    link: "assets/Product/Electronics/laptops/asusV15/main/main.webp",
                     size_2: {
                         height: "40px",
                     },
@@ -2589,7 +2589,7 @@ const products = [
                     },
                 },
                 {
-                    link: "assets/Product/Electronics/asusV15/other/1.webp",
+                    link: "assets/Product/Electronics/laptops/asusV15/other/1.webp",
                     size_2: {
                         height: "54px",
                     },
@@ -2598,7 +2598,7 @@ const products = [
                     }
                 },
                 {
-                    link: "assets/Product/Electronics/asusV15/other/2.webp",
+                    link: "assets/Product/Electronics/laptops/asusV15/other/2.webp",
                     size_2: {
                         height: "54px",
                     },
@@ -2607,7 +2607,7 @@ const products = [
                     }
                 },
                 {
-                    link: "assets/Product/Electronics/asusV15/other/3.webp",
+                    link: "assets/Product/Electronics/laptops/asusV15/other/3.webp",
                     size_2: {
                         height: "54px",
                     },
@@ -2616,7 +2616,7 @@ const products = [
                     }
                 },
                 {
-                    link: "assets/Product/Electronics/asusV15/other/4.webp",
+                    link: "assets/Product/Electronics/laptops/asusV15/other/4.webp",
                     size_2: {
                         height: "54px",
                     },
@@ -2625,7 +2625,7 @@ const products = [
                     }
                 },
                 {
-                    link: "assets/Product/Electronics/asusV15/other/5.webp",
+                    link: "assets/Product/Electronics/laptops/asusV15/other/5.webp",
                     size_2: {
                         height: "54px",
                     },
@@ -2634,7 +2634,7 @@ const products = [
                     }
                 },
                 {
-                    link: "assets/Product/Electronics/asusV15/other/6.webp",
+                    link: "assets/Product/Electronics/laptops/asusV15/other/6.webp",
                     size_2: {
                         height: "54px",
                     },
@@ -2778,7 +2778,7 @@ const products = [
         ],
         images: {
             main: {
-                link: "assets/Product/Electronics/HP15s/main/main.webp",
+                link: "assets/Product/Electronics/laptops/HP15s/main/main.webp",
                 size_c: {
                     height: "120px"
                 },
@@ -2795,7 +2795,7 @@ const products = [
             },
             other: [
                 {
-                    link: "assets/Product/Electronics/HP15s/main/main.webp",
+                    link: "assets/Product/Electronics/laptops/HP15s/main/main.webp",
                     size_2: {
                         height: "40px",
                     },
@@ -2804,7 +2804,7 @@ const products = [
                     },
                 },
                 {
-                    link: "assets/Product/Electronics/HP15s/other/1.webp",
+                    link: "assets/Product/Electronics/laptops/HP15s/other/1.webp",
                     size_2: {
                         height: "54px",
                     },
@@ -2813,7 +2813,7 @@ const products = [
                     }
                 },
                 {
-                    link: "assets/Product/Electronics/HP15s/other/2.webp",
+                    link: "assets/Product/Electronics/laptops/HP15s/other/2.webp",
                     size_2: {
                         height: "54px",
                     },
@@ -2822,7 +2822,7 @@ const products = [
                     }
                 },
                 {
-                    link: "assets/Product/Electronics/HP15s/other/3.webp",
+                    link: "assets/Product/Electronics/laptops/HP15s/other/3.webp",
                     size_2: {
                         height: "54px",
                     },
@@ -2831,7 +2831,7 @@ const products = [
                     }
                 },
                 {
-                    link: "assets/Product/Electronics/HP15s/other/4.webp",
+                    link: "assets/Product/Electronics/laptops/HP15s/other/4.webp",
                     size_2: {
                         height: "54px",
                     },
@@ -2840,7 +2840,7 @@ const products = [
                     }
                 },
                 {
-                    link: "assets/Product/Electronics/HP15s/other/5.webp",
+                    link: "assets/Product/Electronics/laptops/HP15s/other/5.webp",
                     size_2: {
                         height: "54px",
                     },
@@ -2849,7 +2849,7 @@ const products = [
                     }
                 },
                 {
-                    link: "assets/Product/Electronics/HP15s/other/6.webp",
+                    link: "assets/Product/Electronics/laptops/HP15s/other/6.webp",
                     size_2: {
                         height: "54px",
                     },
@@ -2988,7 +2988,7 @@ const products = [
     ,
     {
         name: "REDMI Note 12 Pro 5G (Onyx Black, 128 GB)",
-        brand: "Redmi",
+        brand: "redmi",
         category: "mobile",
         uid: "p0017",
         pid: "r001",
@@ -3186,7 +3186,7 @@ const products = [
     },
     {
         name: "REDMI Note 11T 5G (Matte black, 128 GB",
-        brand: "Redmi",
+        brand: "redmi",
         category: "mobile",
         uid: "p0018",
         pid: "r002",
@@ -3361,7 +3361,7 @@ const products = [
     },
     {
         name: "Redmi Note 11 PRO Plus 5G (Stealth Black, 128 GB)",
-        brand: "Redmi",
+        brand: "redmi",
         category: "mobile",
         uid: "p0019",
         pid: "r001",
@@ -3541,7 +3541,7 @@ const products = [
     },
     {
         name: "REDMI NOTE 10 LITE (Glacier White, 128 GB)",
-        brand: "Redmi",
+        brand: "redmi",
         category: "mobile",
         uid: "p0020",
         pid: "r001",
@@ -4122,7 +4122,7 @@ const products = [
         ],
         images: {
             main: {
-                link: "assets/Product/Mobile-Tab/Realme/realme10/main/main.webp",
+                link: "assets/Product/Mobile-Tab/Realme/realme95g/main/main.webp",
                 size_c: {
                     height: "120px"
                 },
@@ -4139,7 +4139,7 @@ const products = [
             },
             other: [
                 {
-                    link: "assets/Product/Mobile-Tab/Realme/realme10/main/main.webp",
+                    link: "assets/Product/Mobile-Tab/Realme/realme95g/main/main.webp",
                     size_2: {
                         height: "53px",
                     },
@@ -4148,7 +4148,7 @@ const products = [
                     },
                 },
                 {
-                    link: "assets/Product/Mobile-Tab/Realme/realme10/other/1.webp",
+                    link: "assets/Product/Mobile-Tab/Realme/realme95g/other/1.webp",
                     size_2: {
                         height: "54px",
                     },
@@ -4157,7 +4157,16 @@ const products = [
                     }
                 },
                 {
-                    link: "assets/Product/Mobile-Tab/Realme/realme10/other/2.webp",
+                    link: "assets/Product/Mobile-Tab/Realme/realme95g/other/2.webp",
+                    size_2: {
+                        height: "24px",
+                    },
+                    size_3: {
+                        height: "151px",
+                    }
+                },
+                {
+                    link: "assets/Product/Mobile-Tab/Realme/realme95g/other/3.webp",
                     size_2: {
                         height: "54px",
                     },
@@ -4166,7 +4175,7 @@ const products = [
                     }
                 },
                 {
-                    link: "assets/Product/Mobile-Tab/Realme/realme10/other/3.webp",
+                    link: "assets/Product/Mobile-Tab/Realme/realme95g/other/4.webp",
                     size_2: {
                         height: "54px",
                     },
@@ -4175,7 +4184,7 @@ const products = [
                     }
                 },
                 {
-                    link: "assets/Product/Mobile-Tab/Realme/realme10/other/4.webp",
+                    link: "assets/Product/Mobile-Tab/Realme/realme95g/other/5.webp",
                     size_2: {
                         height: "54px",
                     },
@@ -4184,16 +4193,7 @@ const products = [
                     }
                 },
                 {
-                    link: "assets/Product/Mobile-Tab/Realme/realme10/other/5.webp",
-                    size_2: {
-                        height: "54px",
-                    },
-                    size_3: {
-                        height: "417px",
-                    }
-                },
-                {
-                    link: "assets/Product/Mobile-Tab/Realme/realme10/other/6.webp",
+                    link: "assets/Product/Mobile-Tab/Realme/realme95g/other/6.webp",
                     size_2: {
                         height: "54px",
                     },
@@ -4204,56 +4204,56 @@ const products = [
 
             ],
         },
-        price: "₹16,999",
-        price_value: 16999,
-        MRP: "₹19,999",
+        price: "₹15,999",
+        price_value: 15999,
+        MRP: "₹18,999",
         sale_offer: "15% off",
         delevery_type: "Free delivery",
         delevery_fee: "₹50",
         details: [
-            "8 GB RAM | 128 GB ROM | Expandable Upto 1 TB",
-            "16.26 cm (6.4 inch) Full HD+ Display",
-            "50MP + 2MP | 16MP Front Camera",
-            "5000 mAh Battery",
-            "Mediatek Helio G99 Octa Core Processor",
-            "1 Year Manufacturer Warranty for Phone and 6 Months Warranty for In-Box Accessories",
+            "4 GB RAM | 64 GB ROM | Expandable Upto 1 TB",
+            "16.51 cm (6.5 inch) Full HD+ Display",
+            "48MP + 2MP + 2MP | 16MP Front Camera",
+            "5000 mAh Lithium Polymer Battery",
+            "Mediatek Dimensity 810 Processor",
+            "1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories",
         ],
         specifications: [
             {
                 sp_name: "In The Box",
-                sp_value: "Handset, Adapter, USB Cable, Important Info Booklet with Warranty Card, Quick Guide, Sim Card Tool, Screen Protect Film, Case"
+                sp_value: "Handset, Adapter, USB Cable, Sim Card Tool, Screen Protect Film, Case, Important Info Booklet with Warranty Card, Quick Guide"
             },
             {
                 sp_name: "Model Number",
-                sp_value: "RMX3630"
+                sp_value: "RMX3388"
             },
             {
                 sp_name: "Model Name",
-                sp_value: "10"
+                sp_value: "9 5G"
             },
             {
                 sp_name: "Display Type",
-                sp_value: "Full HD+ AMOLED Display"
+                sp_value: "Full HD+ LCD (LTPS)"
             },
             {
                 sp_name: "Color",
-                sp_value: "Clash White"
+                sp_value: "Supersonic Black"
             },
             {
                 sp_name: "Display Size",
-                sp_value: "16.26 cm (6.4 inch)"
+                sp_value: "16.51 cm (6.5 inch)"
             },
             {
                 sp_name: "Resolution",
-                sp_value: "2400 x 1080 Pixel"
+                sp_value: "2400 x 1080 Pixels"
             },
             {
                 sp_name: "Operating System",
-                sp_value: "Android 12"
+                sp_value: "Android 11"
             },
             {
                 sp_name: "Processor Type",
-                sp_value: "Mediatek Helio G99 Octa Core"
+                sp_value: "Mediatek Dimensity 810"
             },
             {
                 sp_name: "Processor Core",
@@ -4261,20 +4261,20 @@ const products = [
             },
             {
                 sp_name: "Primary Clock Speed",
-                sp_value: "2.2 GHz"
+                sp_value: "2.4 GHz"
             },
             {
                 sp_name: "Internal Storage",
-                sp_value: "128 GB"
+                sp_value: "64 GB"
             },
             {
                 sp_name: "RAM",
-                sp_value: "8GB"
+                sp_value: "4GB"
             },
         ],
-        rating: 4.3,
-        ratingCount: "1,234",
-        reviewCount: "84",
+        rating: 4.5,
+        ratingCount: "39,328",
+        reviewCount: "2,229",
         availibleOffer: [
             {
                 offerType: "Special Price",
@@ -4305,26 +4305,27 @@ const products = [
                 offerDesc: "Sign up for Flipkart Pay Later and get Flipkart Gift Card worth up to ₹500"
             },
         ],
-        discription: "Get a Realme 10 smartphone for yourself and experience the enhanced feeling of colourful lifestyle that comes with it. In addition to its outstanding SOC performance, fluid apps, rapid startup, and quick page loading, this phone has a brilliant GPU performance for high frame rate, fluid gaming, and decreased latency. You can also enjoy stunning visuals thanks to the Realme 10's 90 Hz Super AMOLED display, 16.25 cm (6.4) FHD+ screen, 90.8% Screen-to-Body Ratio, Corning Gorilla Glass 5 for increased protection, 1000 nits of peak brightness for brilliance, and a contrast ratio of 4000000:1 that helps make every image spectacular. Additionally, the 8 GB+8 GB of Dynamic RAM allows you to run many programmes simultaneously without feeling any latency."
+        discription: "NA"
         ,
-        warrenty: "1 Year Manufacturer Warranty for Phone and 6 Months Warranty for In-Box Accessories",
+        warrenty: "1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories",
         sellerDetail: {
-            s_name: "ECOMTAMSINRetail",
-            s_rating: 4.8
+            s_name: "BTPLD",
+            s_rating: 4.7
         }
     },
+
     {
-        name: "realme 10 (Clash White, 128 GB)",
+        name: "realme NARZO 50A PRIME (FLASH BLACK, 64 GB)",
         brand: "realme",
         category: "mobile",
-        uid: "p0023",
+        uid: "p0024",
         pid: "r001",
         tags: [
             "mobile", "smartphone", "phone", "samsung", "samsung mobile"
         ],
         images: {
             main: {
-                link: "assets/Product/Mobile-Tab/Realme/realme10/main/main.webp",
+                link: "assets/Product/Mobile-Tab/Realme/realmen50apr/main/main.webp",
                 size_c: {
                     height: "120px"
                 },
@@ -4341,7 +4342,7 @@ const products = [
             },
             other: [
                 {
-                    link: "assets/Product/Mobile-Tab/Realme/realme10/main/main.webp",
+                    link: "assets/Product/Mobile-Tab/Realme/realmen50apr/main/main.webp",
                     size_2: {
                         height: "53px",
                     },
@@ -4350,7 +4351,7 @@ const products = [
                     },
                 },
                 {
-                    link: "assets/Product/Mobile-Tab/Realme/realme10/other/1.webp",
+                    link: "assets/Product/Mobile-Tab/Realme/realmen50apr/other/1.webp",
                     size_2: {
                         height: "54px",
                     },
@@ -4359,7 +4360,7 @@ const products = [
                     }
                 },
                 {
-                    link: "assets/Product/Mobile-Tab/Realme/realme10/other/2.webp",
+                    link: "assets/Product/Mobile-Tab/Realme/realmen50apr/other/2.webp",
                     size_2: {
                         height: "54px",
                     },
@@ -4368,7 +4369,7 @@ const products = [
                     }
                 },
                 {
-                    link: "assets/Product/Mobile-Tab/Realme/realme10/other/3.webp",
+                    link: "assets/Product/Mobile-Tab/Realme/realmen50apr/other/3.webp",
                     size_2: {
                         height: "54px",
                     },
@@ -4377,25 +4378,7 @@ const products = [
                     }
                 },
                 {
-                    link: "assets/Product/Mobile-Tab/Realme/realme10/other/4.webp",
-                    size_2: {
-                        height: "54px",
-                    },
-                    size_3: {
-                        height: "417px",
-                    }
-                },
-                {
-                    link: "assets/Product/Mobile-Tab/Realme/realme10/other/5.webp",
-                    size_2: {
-                        height: "54px",
-                    },
-                    size_3: {
-                        height: "417px",
-                    }
-                },
-                {
-                    link: "assets/Product/Mobile-Tab/Realme/realme10/other/6.webp",
+                    link: "assets/Product/Mobile-Tab/Realme/realmen50apr/other/4.webp",
                     size_2: {
                         height: "54px",
                     },
@@ -4406,56 +4389,55 @@ const products = [
 
             ],
         },
-        price: "₹16,999",
-        price_value: 16999,
-        MRP: "₹19,999",
-        sale_offer: "15% off",
+        price: "₹10,749",
+        price_value: 10749,
+        MRP: "₹13,499",
+        sale_offer: "20% off",
         delevery_type: "Free delivery",
         delevery_fee: "₹50",
         details: [
-            "8 GB RAM | 128 GB ROM | Expandable Upto 1 TB",
-            "16.26 cm (6.4 inch) Full HD+ Display",
-            "50MP + 2MP | 16MP Front Camera",
+            "4 GB RAM | 64 GB ROM",
+            "16.76 cm (6.6 inch) Display",
+            "50MP Rear Camera",
             "5000 mAh Battery",
-            "Mediatek Helio G99 Octa Core Processor",
-            "1 Year Manufacturer Warranty for Phone and 6 Months Warranty for In-Box Accessories",
+            "1 YEAR ON MOBILE AND 6 MONTHS FOR ACCESORIES",
         ],
         specifications: [
             {
                 sp_name: "In The Box",
-                sp_value: "Handset, Adapter, USB Cable, Important Info Booklet with Warranty Card, Quick Guide, Sim Card Tool, Screen Protect Film, Case"
+                sp_value: "Handset, USB Type-C Cable, Sim Ejector Tool, Quick Start Guide, (Travel Adapter to be bought Separately)"
             },
             {
                 sp_name: "Model Number",
-                sp_value: "RMX3630"
+                sp_value: "RMX3516"
             },
             {
                 sp_name: "Model Name",
-                sp_value: "10"
+                sp_value: "Narzo 50A Prime"
             },
             {
                 sp_name: "Display Type",
-                sp_value: "Full HD+ AMOLED Display"
+                sp_value: "Full HD+"
             },
             {
                 sp_name: "Color",
-                sp_value: "Clash White"
+                sp_value: "Flash Black"
             },
             {
                 sp_name: "Display Size",
-                sp_value: "16.26 cm (6.4 inch)"
+                sp_value: "16.76 cm (6.6 inch)"
             },
             {
                 sp_name: "Resolution",
-                sp_value: "2400 x 1080 Pixel"
+                sp_value: "2408 x 1080$$pixels"
             },
             {
                 sp_name: "Operating System",
-                sp_value: "Android 12"
+                sp_value: "Android 11"
             },
             {
                 sp_name: "Processor Type",
-                sp_value: "Mediatek Helio G99 Octa Core"
+                sp_value: "Mediatek Helio c35 Octa Core"
             },
             {
                 sp_name: "Processor Core",
@@ -4463,7 +4445,7 @@ const products = [
             },
             {
                 sp_name: "Primary Clock Speed",
-                sp_value: "2.2 GHz"
+                sp_value: "1.8 GHz"
             },
             {
                 sp_name: "Internal Storage",
@@ -4474,17 +4456,21 @@ const products = [
                 sp_value: "8GB"
             },
         ],
-        rating: 4.3,
-        ratingCount: "1,234",
-        reviewCount: "84",
+        rating: 3.9,
+        ratingCount: "390",
+        reviewCount: "23",
         availibleOffer: [
             {
                 offerType: "Special Price",
-                offerDesc: "Get extra ₹3000 off (price inclusive of cashback/coupon)"
+                offerDesc: "Special PriceGet extra ₹2398 off (price inclusive of cashback/coupon)"
             },
             {
                 offerType: "",
                 offerDesc: "Flipkart Pay Later"
+            },
+            {
+                offerType: "Bank Offer",
+                offerDesc: "10% instant discount on SBI Credit Card EMI Transactions, up to ₹1000, on orders of ₹5,000 and above"
             },
             {
                 offerType: "Freebie",
@@ -4507,15 +4493,1194 @@ const products = [
                 offerDesc: "Sign up for Flipkart Pay Later and get Flipkart Gift Card worth up to ₹500"
             },
         ],
-        discription: "Get a Realme 10 smartphone for yourself and experience the enhanced feeling of colourful lifestyle that comes with it. In addition to its outstanding SOC performance, fluid apps, rapid startup, and quick page loading, this phone has a brilliant GPU performance for high frame rate, fluid gaming, and decreased latency. You can also enjoy stunning visuals thanks to the Realme 10's 90 Hz Super AMOLED display, 16.25 cm (6.4) FHD+ screen, 90.8% Screen-to-Body Ratio, Corning Gorilla Glass 5 for increased protection, 1000 nits of peak brightness for brilliance, and a contrast ratio of 4000000:1 that helps make every image spectacular. Additionally, the 8 GB+8 GB of Dynamic RAM allows you to run many programmes simultaneously without feeling any latency."
+        discription: "NA"
         ,
         warrenty: "1 Year Manufacturer Warranty for Phone and 6 Months Warranty for In-Box Accessories",
         sellerDetail: {
-            s_name: "ECOMTAMSINRetail",
-            s_rating: 4.8
+            s_name: "DigitalMobiles",
+            s_rating: 4.2
         }
     },
+    {
+        name: "Canon EOS 3000D DSLR Camera 1 Camera Body, 18 - 55 mm Lens  (Black)",
+        brand: "canon",
+        category: "camera",
+        uid: "p0025",
+        pid: "r001",
+        tags: [
+            "mobile", "smartphone", "phone", "samsung", "samsung mobile"
+        ],
+        images: {
+            main: {
+                link: "assets/Product/Electronics/cameras/canoneos/main/main.webp",
+                size_c: {
+                    height: "120px"
+                },
+                size: {
+                    height: "185px",
+                },
+                size_2: {
+                    height: "53px",
+                },
+                size_3: {
+                    height: "265px",
+                },
 
+            },
+            other: [
+                {
+                    link: "assets/Product/Electronics/cameras/canoneos/main/main.webp",
+                    size_2: {
+                        height: "40px",
+                    },
+                    size_3: {
+                        height: "316px",
+                    },
+                },
+                {
+                    link: "assets/Product/Electronics/cameras/canoneos/other/1.webp",
+                    size_2: {
+                        height: "43px",
+                    },
+                    size_3: {
+                        height: "335px",
+                    }
+                },
+                {
+                    link: "assets/Product/Electronics/cameras/canoneos/other/2.webp",
+                    size_2: {
+                        height: "43px",
+                    },
+                    size_3: {
+                        height: "340px",
+                    }
+                },
+                {
+                    link: "assets/Product/Electronics/cameras/canoneos/other/3.webp",
+                    size_2: {
+                        height: "43px",
+                    },
+                    size_3: {
+                        height: "340px",
+                    }
+                },
+                {
+                    link: "assets/Product/Electronics/cameras/canoneos/other/4.webp",
+                    size_2: {
+                        height: "43px",
+                    },
+                    size_3: {
+                        height: "340px",
+                    }
+                },
+                {
+                    link: "assets/Product/Electronics/cameras/canoneos/other/5.webp",
+                    size_2: {
+                        height: "43px",
+                    },
+                    size_3: {
+                        height: "340px",
+                    }
+                },
+
+            ],
+        },
+        price: "₹29,999",
+        price_value: 29999,
+        MRP: "₹33,995",
+        sale_offer: "11% off",
+        delevery_type: "Free delivery",
+        delevery_fee: "₹50",
+        details: [
+            "Self-Timer, Type C and Mini HDMI, 9 Auto Focus Points, 3x Optical Zoom, WiFi, Full HD, Video Recording at 1080 p on 30fps, APS-C CMOS sensor-which is 25 times larger than a typical Smartphone sensor.",
+            "Effective Pixels: 18 MP",
+            "Sensor Type: CMOS",
+            "WiFi Available",
+            "Full HD",
+            "2 Year Warranty (1 year standard warranty + 1 year additional warranty from the date of purchase made by the customer.)",
+        ],
+        specifications: [
+            {
+                sp_name: "In The Box",
+                sp_value: "1 Camera Body, 18 - 55 mm Lens, Battery, Battery Charger"
+            },
+            {
+                sp_name: "Brand",
+                sp_value: "Canon"
+            },
+            {
+                sp_name: "Model Number",
+                sp_value: "EOS 3000D"
+            },
+            {
+                sp_name: "Model Name",
+                sp_value: "EOS"
+            },
+            {
+                sp_name: "SLR Variant",
+                sp_value: "1 Camera Body, 18 - 55 mm Lens"
+            },
+            {
+                sp_name: "Effective Pixels",
+                sp_value: "18 MP"
+            },
+            {
+                sp_name: "Sensor Type",
+                sp_value: "CMOS"
+            },
+            {
+                sp_name: "Image Sensor Size",
+                sp_value: "22.3 x 14.9mm"
+            },
+            {
+                sp_name: "Shutter Speed",
+                sp_value: "1/4000 sec"
+            },
+            {
+                sp_name: "Video Resolution",
+                sp_value: "1920 x 1080"
+            },
+            {
+                sp_name: "Display Type",
+                sp_value: "Digital, single-lens reflex, AF / AE camera with built-in flash"
+            },
+            {
+                sp_name: "Image Format",
+                sp_value: "JPEG, RAW (14-bit Canon original)"
+            },
+            {
+                sp_name: "Compatible Card",
+                sp_value: "SD Card"
+            },
+            {
+                sp_name: "Battery Type",
+                sp_value: "Lithium Battery"
+            },
+        ],
+        rating: 4.3,
+        ratingCount: "1,234",
+        reviewCount: "84",
+        availibleOffer: [
+            {
+                offerType: "",
+                offerDesc: "Flipkart Pay Later"
+            },
+            {
+                offerType: "Bank Offer",
+                offerDesc: "10% instant discount on SBI Credit Card EMI Transactions, up to ₹1500, on orders of ₹5,000 and above"
+            },
+            {
+                offerType: "Special Price",
+                offerDesc: "Get extra 4% off (price inclusive of cashback/coupon)"
+            },
+            {
+                offerType: "Bank Offer",
+                offerDesc: "5% Cashback on Flipkart Axis Bank Card"
+            },
+            {
+                offerType: "",
+                offerDesc: "Buy this Product and Get Extra ₹500 Off on Bikes & Scooters"
+            },
+            {
+                offerType: "Partner Offer",
+                offerDesc: "Purchase now & get a surprise cashback coupon till November 2023"
+            },
+            {
+                offerType: "Partner Offer",
+                offerDesc: "Sign up for Flipkart Pay Later and get Flipkart Gift Card worth up to ₹500"
+            },
+        ],
+        discription: "If you are a photography enthusiast, then the Canon EOS 3000D DSLR Camera is a must-have gadget. Featuring an 18 MP (APS-C) CMOS sensor and the DIGIC 4+ imaging processor, you can capture amazing photos of your subject at all times, even in low-light conditions. Moreover, the remote Live View function lets you control this camera remotely using your smartphone so you can capture amazing photos even from a distance."
+        ,
+        warrenty: "2 Year Warranty (1 year standard warranty + 1 year additional warranty from the date of purchase made by the customer.)",
+        sellerDetail: {
+            s_name: "TBsmart",
+            s_rating: 4.3
+        }
+    },
+    {
+        name: "SONY Alpha ILCE-6100Y APS-C Mirrorless Camera with Dual Lens 16-50 mm & 55-210 mm Zoom Featuring Eye A...",
+        brand: "sony",
+        category: "camera",
+        uid: "p0026",
+        pid: "r001",
+        tags: [
+            "mobile", "smartphone", "phone", "samsung", "samsung mobile"
+        ],
+        images: {
+            main: {
+                link: "assets/Product/Electronics/cameras/sonyalpha/main/main.webp",
+                size_c: {
+                    height: "120px"
+                },
+                size: {
+                    height: "185px",
+                },
+                size_2: {
+                    height: "53px",
+                },
+                size_3: {
+                    height: "265px",
+                },
+
+            },
+            other: [
+                {
+                    link: "assets/Product/Electronics/cameras/sonyalpha/main/main.webp",
+                    size_2: {
+                        height: "30px",
+                    },
+                    size_3: {
+                        height: "269px",
+                    },
+                },
+                {
+                    link: "assets/Product/Electronics/cameras/sonyalpha/other/1.webp",
+                    size_2: {
+                        height: "40px",
+                    },
+                    size_3: {
+                        height: "310px",
+                    }
+                },
+                {
+                    link: "assets/Product/Electronics/cameras/sonyalpha/other/2.webp",
+                    size_2: {
+                        height: "43px",
+                    },
+                    size_3: {
+                        height: "340px",
+                    }
+                },
+                {
+                    link: "assets/Product/Electronics/cameras/sonyalpha/other/3.webp",
+                    size_2: {
+                        height: "25px",
+                    },
+                    size_3: {
+                        height: "155px",
+                    }
+                },
+                {
+                    link: "assets/Product/Electronics/cameras/sonyalpha/other/4.webp",
+                    size_2: {
+                        height: "25px",
+                    },
+                    size_3: {
+                        height: "176px",
+                    }
+                },
+                {
+                    link: "assets/Product/Electronics/cameras/sonyalpha/other/5.webp",
+                    size_2: {
+                        height: "38px",
+                    },
+                    size_3: {
+                        height: "294px",
+                    }
+                },
+                {
+                    link: "assets/Product/Electronics/cameras/sonyalpha/other/6.webp",
+                    size_2: {
+                        height: "38px",
+                    },
+                    size_3: {
+                        height: "294px",
+                    }
+                },
+
+            ],
+        },
+        price: "₹80,990",
+        price_value: 80990,
+        MRP: "₹89,990",
+        sale_offer: "10% off",
+        delevery_type: "Free delivery",
+        delevery_fee: "₹50",
+        details: [
+            "High-resolution 4K movie recording, Choose your own shooting style, Self-framing made easy, Flexible low-angle shooting, Convenient Touch Tracking and Touch Focus features, Cleaner images in dimly lit settings, Superior image resolution and natural-looking textures, Uncompromising image quality, Real-time Tracking, Persistent tracking at high speed, NFC & Bluetooth",
+            "Effective Pixels: 24.2 MP",
+            "Sensor Type: CMOS",
+            "WiFi Available",
+            "UHD 4K",
+            "2 Year Warranty",
+        ],
+        specifications: [
+            {
+                sp_name: "In The Box",
+                sp_value: "1 Unit(Including Lens(SELP1650 & SEL55210), Lens Hood, Lens cap,Lens Rear Cap, Power Cord, Rechargable Battery (NP-FW50), AC Adaptor (AC-UUE12), Shoulder Strap, Eyepiece cup, Micro USB Cable-1U each), Camera Bag"
+            },
+            {
+                sp_name: "Brand",
+                sp_value: "SONY"
+            },
+            {
+                sp_name: "Model Number",
+                sp_value: "ILCE-6100Y APS-C"
+            },
+            {
+                sp_name: "Model Name",
+                sp_value: "ILCE-6100Y/B IN5"
+            },
+            {
+                sp_name: "SLR Variant",
+                sp_value: "with Dual Lens 16-50 mm & 55-210 mm Zoom Featuring Eye AF and 4K movie recording"
+            },
+            {
+                sp_name: "Effective Pixels",
+                sp_value: "24.2 MP"
+            },
+            {
+                sp_name: "Sensor Type",
+                sp_value: "CMOS"
+            },
+            {
+                sp_name: "Image Sensor Size",
+                sp_value: "23.5 x 15.6 mm"
+            },
+            {
+                sp_name: "Shutter Speed",
+                sp_value: "1/4000 - 30 sec"
+            },
+            {
+                sp_name: "Video Resolution",
+                sp_value: "3840 x 2160"
+            },
+            {
+                sp_name: "Display Type",
+                sp_value: "OLED"
+            },
+            {
+                sp_name: "Image Format",
+                sp_value: "JPEG"
+            },
+            {
+                sp_name: "Compatible Card",
+                sp_value: "SD Card"
+            },
+            {
+                sp_name: "Battery Type",
+                sp_value: "Lithium Battery"
+            },
+        ],
+        rating: 4.6,
+        ratingCount: "265",
+        reviewCount: "48",
+        availibleOffer: [
+            {
+                offerType: "",
+                offerDesc: "Flipkart Pay Later"
+            },
+            {
+                offerType: "Bank Offer",
+                offerDesc: "10% instant discount on SBI Credit Card EMI Transactions, up to ₹1500, on orders of ₹5,000 and above"
+            },
+            {
+                offerType: "Special Price",
+                offerDesc: "Get extra 1% off (price inclusive of cashback/coupon)"
+            },
+            {
+                offerType: "Bank Offer",
+                offerDesc: "5% Cashback on Flipkart Axis Bank Card"
+            },
+            {
+                offerType: "",
+                offerDesc: "Buy this Product and Get Extra ₹500 Off on Bikes & Scooters"
+            },
+            {
+                offerType: "Partner Offer",
+                offerDesc: "Purchase now & get a surprise cashback coupon till November 2023"
+            },
+            {
+                offerType: "Partner Offer",
+                offerDesc: "Sign up for Flipkart Pay Later and get Flipkart Gift Card worth up to ₹500"
+            },
+        ],
+        discription: "Featuring a 24.2-megapixel Exmor CMOS image sensor and the BIONZ X image processor, this mirrorless camera from Sony offers low-noise performance to ensure that your images are crystal clear. It also takes advantage of the AF Tracking Technology, so you can even click pictures of moving objects without any hassle."
+        ,
+        warrenty: "2 Year Warranty",
+        sellerDetail: {
+            s_name: "CORSECA",
+            s_rating: 4.7
+        }
+    },
+    {
+        name: "Canon EOS M50 Mark II Mirrorless Camera EF-M15-45mm is STM Lens",
+        brand: "canon",
+        category: "camera",
+        uid: "p0027",
+        pid: "r001",
+        tags: [
+            "mobile", "smartphone", "phone", "samsung", "samsung mobile"
+        ],
+        images: {
+            main: {
+                link: "assets/Product/Electronics/cameras/canoneos2/main/main.webp",
+                size_c: {
+                    height: "120px"
+                },
+                size: {
+                    height: "185px",
+                },
+                size_2: {
+                    height: "53px",
+                },
+                size_3: {
+                    height: "265px",
+                },
+
+            },
+            other: [
+                {
+                    link: "assets/Product/Electronics/cameras/canoneos2/main/main.webp",
+                    size_2: {
+                        height: "30px",
+                    },
+                    size_3: {
+                        height: "269px",
+                    },
+                },
+                {
+                    link: "assets/Product/Electronics/cameras/canoneos2/other/1.webp",
+                    size_2: {
+                        height: "25px",
+                    },
+                    size_3: {
+                        height: "179px",
+                    }
+                },
+                {
+                    link: "assets/Product/Electronics/cameras/canoneos2/other/2.webp",
+                    size_2: {
+                        height: "43px",
+                    },
+                    size_3: {
+                        height: "340px",
+                    }
+                },
+                {
+                    link: "assets/Product/Electronics/cameras/canoneos2/other/3.webp",
+                    size_2: {
+                        height: "34px",
+                    },
+                    size_3: {
+                        height: "235px",
+                    }
+                },
+                {
+                    link: "assets/Product/Electronics/cameras/canoneos2/other/4.webp",
+                    size_2: {
+                        height: "34px",
+                    },
+                    size_3: {
+                        height: "235px",
+                    }
+                },
+
+            ],
+        },
+        price: "₹57,990",
+        price_value: 57990,
+        MRP: "₹60,995",
+        sale_offer: "4% off",
+        delevery_type: "Free delivery",
+        delevery_fee: "₹50",
+        details: [
+            "4K and vertical movies, Live YouTube streaming, Auto video transcoding, Use as a webcam, Great in low light, 10fps continuous shooting, 3.5mm external microphone input, Full HD movie at 60p, pair the camera with your smartphone via Wi-Fi or Bluetooth to perform remote shooting, a handy trick for taking group photos.",
+            "Effective Pixels: 24.1 MP",
+            "Sensor Type: CMOS",
+            "WiFi Available",
+            "MP4",
+            "2 Year Warranty (1 year standard warranty + 1 year additional warranty from the date of purchase made by the customer.)",
+        ],
+        specifications: [
+            {
+                sp_name: "In The Box",
+                sp_value: "1 Camera, Camera Strap, Charger, Battery, Charging Cable"
+            },
+            {
+                sp_name: "Brand",
+                sp_value: "SONY"
+            },
+            {
+                sp_name: "Model Number",
+                sp_value: "EOS M50 Mark II"
+            },
+            {
+                sp_name: "Model Name",
+                sp_value: "EOS M50 Mark II"
+            },
+            {
+                sp_name: "SLR Variant",
+                sp_value: "EF-M15-45mm is STM Lens"
+            },
+            {
+                sp_name: "Effective Pixels",
+                sp_value: "24.1 MP"
+            },
+            {
+                sp_name: "Sensor Type",
+                sp_value: "CMOS"
+            },
+            {
+                sp_name: "Image Sensor Size",
+                sp_value: "22.3 x 14.9"
+            },
+            {
+                sp_name: "Shutter Speed",
+                sp_value: "1/4000 - 30 sec"
+            },
+            {
+                sp_name: "Video Resolution",
+                sp_value: "1920 x 1080, 1280 x 720, 3840 x 2160"
+            },
+            {
+                sp_name: "Display Type",
+                sp_value: "TFT Color Liquid Crystal Monitor"
+            },
+            {
+                sp_name: "Image Format",
+                sp_value: "JPEG, RAW"
+            },
+            {
+                sp_name: "Compatible Card",
+                sp_value: "SD Card"
+            },
+            {
+                sp_name: "Battery Type",
+                sp_value: "LP-E12"
+            },
+        ],
+        rating: 4.4,
+        ratingCount: "1,022",
+        reviewCount: "112",
+        availibleOffer: [
+            {
+                offerType: "",
+                offerDesc: "Flipkart Pay Later"
+            },
+            {
+                offerType: "Bank Offer",
+                offerDesc: "10% instant discount on SBI Credit Card EMI Transactions, up to ₹1500, on orders of ₹5,000 and above"
+            },
+            {
+                offerType: "Special Price",
+                offerDesc: "Get extra 1% off (price inclusive of cashback/coupon)"
+            },
+            {
+                offerType: "Bank Offer",
+                offerDesc: "5% Cashback on Flipkart Axis Bank Card"
+            },
+            {
+                offerType: "",
+                offerDesc: "Buy this Product and Get Extra ₹500 Off on Bikes & Scooters"
+            },
+            {
+                offerType: "Partner Offer",
+                offerDesc: "Purchase now & get a surprise cashback coupon till November 2023"
+            },
+            {
+                offerType: "Partner Offer",
+                offerDesc: "Sign up for Flipkart Pay Later and get Flipkart Gift Card worth up to ₹500"
+            },
+        ],
+        discription: "Flex Your Stories.Lightweight and stylish, the EOS M50 Mark II is fun and easy to use with Wi-Fi connectivity for content creators to stay close to your audience at all times. Keep your social media feeds lit with high-quality visual storytelling in 4K and accurate eye and face detection autofocusing.Whatever content you create, set yourself apart from the crowd and give your audience something special. The EOS M50 Mark II gives you more ways to shoot photos, movies and live streams and connect with your followers.,suitable_for-Beginners,processor-DIGIC 8,sensor_type-APS-C CMOS,continuous_shooting_speed-11 fps (in High Continuous shooting)"
+        ,
+        warrenty: "2 Year Warranty (1 year standard warranty + 1 year additional warranty from the date of purchase made by the customer.)",
+        sellerDetail: {
+            s_name: "SPLIPRLItech",
+            s_rating: 4.3
+        }
+    },
+    {
+        name: "SONY Alpha ILCE-6400L APS-C Mirrorless Camera with 16-50 mm Power Zoom Lens Featuring Eye AF and 4K movie recording  (Black)",
+        brand: "sony",
+        category: "camera",
+        uid: "p0028",
+        pid: "r001",
+        tags: [
+            "mobile", "smartphone", "phone", "samsung", "samsung mobile"
+        ],
+        images: {
+            main: {
+                link: "assets/Product/Electronics/cameras/sonyalpha2/main/main.webp",
+                size_c: {
+                    height: "120px"
+                },
+                size: {
+                    height: "185px",
+                },
+                size_2: {
+                    height: "53px",
+                },
+                size_3: {
+                    height: "265px",
+                },
+
+            },
+            other: [
+                {
+                    link: "assets/Product/Electronics/cameras/sonyalpha2/main/main.webp",
+                    size_2: {
+                        height: "35px",
+                    },
+                    size_3: {
+                        height: "260px",
+                    },
+                },
+                {
+                    link: "assets/Product/Electronics/cameras/sonyalpha2/other/1.webp",
+                    size_2: {
+                        height: "50px",
+                    },
+                    size_3: {
+                        height: "380px",
+                    }
+                },
+                {
+                    link: "assets/Product/Electronics/cameras/sonyalpha2/other/2.webp",
+                    size_2: {
+                        height: "50px",
+                    },
+                    size_3: {
+                        height: "380px",
+                    }
+                },
+                {
+                    link: "assets/Product/Electronics/cameras/sonyalpha2/other/3.webp",
+                    size_2: {
+                        height: "50px",
+                    },
+                    size_3: {
+                        height: "380px",
+                    }
+                },
+                {
+                    link: "assets/Product/Electronics/cameras/sonyalpha2/other/4.webp",
+                    size_2: {
+                        height: "50px",
+                    },
+                    size_3: {
+                        height: "380px",
+                    }
+                },
+                {
+                    link: "assets/Product/Electronics/cameras/sonyalpha2/other/5.webp",
+                    size_2: {
+                        height: "50px",
+                    },
+                    size_3: {
+                        height: "380px",
+                    }
+                },
+                {
+                    link: "assets/Product/Electronics/cameras/sonyalpha2/other/6.webp",
+                    size_2: {
+                        height: "50px",
+                    },
+                    size_3: {
+                        height: "380px",
+                    }
+                },
+
+            ],
+        },
+        price: "₹79,990",
+        price_value: 79990,
+        MRP: "₹90,990",
+        sale_offer: "12% off",
+        delevery_type: "Free delivery",
+        delevery_fee: "₹50",
+        details: [
+            "4K movies and pro-level features, Natural-looking images that match what you see, Cleaner images even in dim light, Creative movie production, High-resolution 4K recording, Create time-lapse movies, Vlog with useful features, Take advantage of various movie functions, A high resolution LCD monitor with handy touchscreen functions, Incredible image quality, Sophisticated eye recognition and tracking, Persistent tracking ability, High speed continuous shooting with AF/AE tracking, Bluetooth & NFC, Touch Screen",
+            "Effective Pixels: 24.2 MP",
+            "Sensor Type: CMOS",
+            "WiFi Available",
+            "NTSC/PAL",
+            "2 Year Warranty",
+        ],
+        specifications: [
+            {
+                sp_name: "In The Box",
+                sp_value: "AC Adaptor: AC-UUE12, Eyepiece cup, Lens cap, Power cord, Micro USB cable, Shoulder strap, Accessory shoe cap, Camera Bag"
+            },
+            {
+                sp_name: "Brand",
+                sp_value: "SONY"
+            },
+            {
+                sp_name: "Model Number",
+                sp_value: "ILCE-6400L APS-C"
+            },
+            {
+                sp_name: "Model Name",
+                sp_value: "ILCE-6400L"
+            },
+            {
+                sp_name: "SLR Variant",
+                sp_value: "with 16-50 mm Power Zoom Lens Featuring Eye AF and 4K movie recording"
+            },
+            {
+                sp_name: "Effective Pixels",
+                sp_value: "24.2 MP"
+            },
+            {
+                sp_name: "Sensor Type",
+                sp_value: "CMOS"
+            },
+            {
+                sp_name: "Image Sensor Size",
+                sp_value: "23.5 x 15.6 mm"
+            },
+            {
+                sp_name: "Shutter Speed",
+                sp_value: "1/4000 - 30 sec"
+            },
+            {
+                sp_name: "Video Resolution",
+                sp_value: "1920 x 1080"
+            },
+            {
+                sp_name: "Display Type",
+                sp_value: "LCD"
+            },
+            {
+                sp_name: "Image Format",
+                sp_value: "JPEG"
+            },
+            {
+                sp_name: "Compatible Card",
+                sp_value: "SD Card"
+            },
+            {
+                sp_name: "Battery Type",
+                sp_value: "Lithium Battery"
+            },
+        ],
+        rating: 4.6,
+        ratingCount: "532",
+        reviewCount: "73",
+        availibleOffer: [
+            {
+                offerType: "",
+                offerDesc: "Flipkart Pay Later"
+            },
+            {
+                offerType: "Bank Offer",
+                offerDesc: "10% instant discount on SBI Credit Card EMI Transactions, up to ₹1500, on orders of ₹5,000 and above"
+            },
+            {
+                offerType: "Special Price",
+                offerDesc: "Get extra 1% off (price inclusive of cashback/coupon)"
+            },
+            {
+                offerType: "Bank Offer",
+                offerDesc: "5% Cashback on Flipkart Axis Bank Card"
+            },
+            {
+                offerType: "",
+                offerDesc: "Buy this Product and Get Extra ₹500 Off on Bikes & Scooters"
+            },
+            {
+                offerType: "Partner Offer",
+                offerDesc: "Purchase now & get a surprise cashback coupon till November 2023"
+            },
+            {
+                offerType: "Partner Offer",
+                offerDesc: "Sign up for Flipkart Pay Later and get Flipkart Gift Card worth up to ₹500"
+            },
+        ],
+        discription: "Bring out the photographer in you and experiment with filmmaking with this Sony Alpha ILCE-6400L Mirrorless camera. It offers exceptional AF performance, high-quality images with low noise, Innovative Image-processing System, and many other features that make filming videos and capturing images a lot more exciting."
+        ,
+        warrenty: "2 Year Warranty",
+        sellerDetail: {
+            s_name: "CORSECA",
+            s_rating: 4.7
+        }
+    },
+    {
+        name: "IFB 6 kg 5 Star 2X Power Steam,Hard Water Wash Fully Automatic Front Load with In-built Heater White  (DIVA AQUA VSS 6008)",
+        brand: "ifb",
+        category: "wash_machine",
+        uid: "p0029",
+        pid: "r001",
+        tags: [
+            "mobile", "smartphone", "phone", "samsung", "samsung mobile"
+        ],
+        images: {
+            main: {
+                link: "assets/Product/TV_Apl/w_m/ifb/main/main.webp",
+                size_c: {
+                    height: "120px"
+                },
+                size: {
+                    height: "185px",
+                },
+                size_2: {
+                    height: "53px",
+                },
+                size_3: {
+                    height: "265px",
+                },
+
+            },
+            other: [
+                {
+                    link: "assets/Product/TV_Apl/w_m/ifb/main/main.webp",
+                    size_2: {
+                        height: "35px",
+                    },
+                    size_3: {
+                        height: "260px",
+                    },
+                },
+                {
+                    link: "assets/Product/TV_Apl/w_m/ifb/other/1.webp",
+                    size_2: {
+                        height: "50px",
+                    },
+                    size_3: {
+                        height: "400px",
+                    }
+                },
+                {
+                    link: "assets/Product/TV_Apl/w_m/ifb/other/2.webp",
+                    size_2: {
+                        height: "50px",
+                    },
+                    size_3: {
+                        height: "400px",
+                    }
+                },
+                {
+                    link: "assets/Product/TV_Apl/w_m/ifb/other/3.webp",
+                    size_2: {
+                        height: "50px",
+                    },
+                    size_3: {
+                        height: "400px",
+                    }
+                },
+                {
+                    link: "assets/Product/TV_Apl/w_m/ifb/other/4.webp",
+                    size_2: {
+                        height: "50px",
+                    },
+                    size_3: {
+                        height: "400px",
+                    }
+                },
+                {
+                    link: "assets/Product/TV_Apl/w_m/ifb/other/5.webp",
+                    size_2: {
+                        height: "50px",
+                    },
+                    size_3: {
+                        height: "400px",
+                    }
+                },
+                {
+                    link: "assets/Product/TV_Apl/w_m/ifb/other/6.webp",
+                    size_2: {
+                        height: "50px",
+                    },
+                    size_3: {
+                        height: "400px",
+                    }
+                },
+
+            ],
+        },
+        price: "₹22,990",
+        price_value: 22990,
+        MRP: "₹26,390",
+        sale_offer: "12% off",
+        delevery_type: "Free delivery",
+        delevery_fee: "₹50",
+        details: [
+            "Fully Automatic Front Load Washing Machines have Great Wash Quality with very less running cost",
+            "800 rpm : Higher the spin speed, lower the drying time",
+            "5 Star Rating",
+            "6 kg",
+            "4 Years Comprehensive Warranty, 10 Years Motor Warranty, 10 Years Spares",
+            ],
+        specifications: [
+            {
+                sp_name: "In The Box",
+                sp_value: "1 Washing Machine, Outlet Pipe, Inlet Pipe, User Manual, Warranty Card"
+            },
+            {
+                sp_name: "Brand",
+                sp_value: "IFB"
+            },
+            {
+                sp_name: "Model Name",
+                sp_value: "DIVA AQUA VSS 6008"
+            },
+            {
+                sp_name: "Function Type",
+                sp_value: "Fully Automatic Front Load"
+            },
+            {
+                sp_name: "Washing Capacity",
+                sp_value: "6 kg"
+            },
+            {
+                sp_name: "Washing Method",
+                sp_value: "Tumble Wash"
+            },
+            {
+                sp_name: "Maximum Spin Speed",
+                sp_value: "800 rpm"
+            },
+            {
+                sp_name: "In-built Heater",
+                sp_value: "Yes"
+            },
+            {
+                sp_name: "Color",
+                sp_value: "White"
+            },
+            {
+                sp_name: "Shade",
+                sp_value: "White"
+            },
+            {
+                sp_name: "Steam",
+                sp_value: "Yes"
+            },
+            {
+                sp_name: "Energy Rating",
+                sp_value: "5"
+            },
+        ],
+        rating: 4.2,
+        ratingCount: "8,515",
+        reviewCount: "718",
+        availibleOffer: [
+            {
+                offerType: "",
+                offerDesc: "Flipkart Pay Later"
+            },
+            {
+                offerType: "Bank Offer",
+                offerDesc: "10% Up to ₹1250 off on SBI Credit Card Transactions"
+            },
+            {
+                offerType: "Bank Offer",
+                offerDesc: "10% instant discount on SBI Credit Card EMI Transactions, up to ₹1500, on orders of ₹5,000 and above"
+            },
+            {
+                offerType: "Bank Offer",
+                offerDesc: "5% Cashback on Flipkart Axis Bank Card"
+            },
+            {
+                offerType: "Partner Offer",
+                offerDesc: "Purchase now & get a surprise cashback coupon till November 2023"
+            },
+            {
+                offerType: "Partner Offer",
+                offerDesc: "Sign up for Flipkart Pay Later and get Flipkart Gift Card worth up to ₹500"
+            },
+        ],
+        discription: "With features that ensure a great wash every time, this IFB Front Load Washing Machine lets you relax while enjoying a fantastic washing session. IFB's Front Load Washing Machine keeps track of all your laundry needs, from Aqua Energie, a filtration procedure for hard water, to up to 2x Power Dual Steam for a sanitary wash and power cleaning. Additionally, other features like Active Color Protection, Auto Tub Clean, Laundry Add, and Time Saver improve your entire washing experience while saving water, power, detergent, and time. Moreover, IFB's sturdy crescent moon drum made of stainless steel offers a soft water cushion that shields clothing from damage."
+        ,
+        warrenty: "4 Years Comprehensive Warranty, 10 Years Motor Warranty, 10 Years Spares Support",
+        sellerDetail: {
+            s_name: "OmniTechRetail",
+            s_rating: 4.6
+        }
+    },
+    {
+        name: "LG 8 kg Fully Automatic Front Load with In-built Heater Black, Grey ",
+        brand: "lg",
+        category: "wash_machine",
+        uid: "p0030",
+        pid: "r001",
+        tags: [
+            "mobile", "smartphone", "phone", "samsung", "samsung mobile"
+        ],
+        images: {
+            main: {
+                link: "assets/Product/TV_Apl/w_m/lg/main/main.webp",
+                size_c: {
+                    height: "120px"
+                },
+                size: {
+                    height: "185px",
+                },
+                size_2: {
+                    height: "53px",
+                },
+                size_3: {
+                    height: "265px",
+                },
+
+            },
+            other: [
+                {
+                    link: "assets/Product/TV_Apl/w_m/lg/main/main.webp",
+                    size_2: {
+                        height: "35px",
+                    },
+                    size_3: {
+                        height: "260px",
+                    },
+                },
+                {
+                    link: "assets/Product/TV_Apl/w_m/lg/other/1.webp",
+                    size_2: {
+                        height: "50px",
+                    },
+                    size_3: {
+                        height: "400px",
+                    }
+                },
+                {
+                    link: "assets/Product/TV_Apl/w_m/lg/other/2.webp",
+                    size_2: {
+                        height: "50px",
+                    },
+                    size_3: {
+                        height: "400px",
+                    }
+                },
+                {
+                    link: "assets/Product/TV_Apl/w_m/lg/other/3.webp",
+                    size_2: {
+                        height: "50px",
+                    },
+                    size_3: {
+                        height: "400px",
+                    }
+                },
+                {
+                    link: "assets/Product/TV_Apl/w_m/lg/other/4.webp",
+                    size_2: {
+                        height: "50px",
+                    },
+                    size_3: {
+                        height: "400px",
+                    }
+                },
+                {
+                    link: "assets/Product/TV_Apl/w_m/lg/other/5.webp",
+                    size_2: {
+                        height: "50px",
+                    },
+                    size_3: {
+                        height: "400px",
+                    }
+                },
+                {
+                    link: "assets/Product/TV_Apl/w_m/lg/other/6.webp",
+                    size_2: {
+                        height: "50px",
+                    },
+                    size_3: {
+                        height: "400px",
+                    }
+                },
+
+            ],
+        },
+        price: "₹22,990",
+        price_value: 22990,
+        MRP: "₹26,390",
+        sale_offer: "12% off",
+        delevery_type: "Free delivery",
+        delevery_fee: "₹50",
+        details: [
+            "Fully Automatic Front Load Washing Machines have Great Wash Quality with very less running cost",
+            "1400 rpm : Higher the spin speed, lower the drying time",
+            "Number of wash programs - 10",
+            "5 Star Rating",
+            "8 kg",
+            "4 Years Comprehensive Warranty, 10 Years Motor Warranty, 10 Years Spares",
+            ],
+        specifications: [
+            {
+                sp_name: "In The Box",
+                sp_value: "1 Washing Machine Unit, Inlet Hose, Owner's Manual, Spanner"
+            },
+            {
+                sp_name: "Brand",
+                sp_value: "LG"
+            },
+            {
+                sp_name: "Model Name",
+                sp_value: "FHM1408BDM"
+            },
+            {
+                sp_name: "Function Type",
+                sp_value: "Fully Automatic Front Load"
+            },
+            {
+                sp_name: "Washing Capacity",
+                sp_value: "8 kg"
+            },
+            {
+                sp_name: "Washing Method",
+                sp_value: "Tumble Wash"
+            },
+            {
+                sp_name: "Maximum Spin Speed",
+                sp_value: "1400 rpm"
+            },
+            {
+                sp_name: "In-built Heater",
+                sp_value: "Yes"
+            },
+            {
+                sp_name: "Color",
+                sp_value: "Black, Grey"
+            },
+            {
+                sp_name: "Shade",
+                sp_value: "Middle Black"
+            },
+            {
+                sp_name: "Energy Rating",
+                sp_value: "5"
+            },
+        ],
+        rating: 4.4,
+        ratingCount: "766",
+        reviewCount: "72",
+        availibleOffer: [
+            {
+                offerType: "",
+                offerDesc: "Flipkart Pay Later"
+            },
+            {
+                offerType: "Bank Offer",
+                offerDesc: "Get additional ₹2000 off on Debit and Credit cards"
+            },
+            {
+                offerType: "Bank Offer",
+                offerDesc: "10% instant discount on SBI Credit Card EMI Transactions, up to ₹1500, on orders of ₹5,000 and above"
+            },
+            {
+                offerType: "Bank Offer",
+                offerDesc: "5% Cashback on Flipkart Axis Bank Card"
+            },
+            {
+                offerType: "Partner Offer",
+                offerDesc: "Purchase now & get a surprise cashback coupon till November 2023"
+            },
+            {
+                offerType: "Partner Offer",
+                offerDesc: "Sign up for Flipkart Pay Later and get Flipkart Gift Card worth up to ₹500"
+            },
+        ],
+        discription: "Powerful and effective, the LG FHM1408BDM 8 kg Fully Automatic Front-loading Washing Machine is an ideal solution to all your laundry requirements. Its 6 Motion DD technology ensures wash drum movements in a number of directions after a wash programme is chosen. As a result, it can effectively wash garments without causing damage to them. Furthermore, thanks to its reliable and low-noise direct drive motor, this washer offers long-lasting performance with minimal noise and vibration."
+        ,
+        warrenty: "2 Years Comprehensive Warranty on Product and 10 Years Warranty on Motor T&C",
+        sellerDetail: {
+            s_name: "EComyalgarTrade",
+            s_rating: 4.6
+        }
+    },
 
 ]
 

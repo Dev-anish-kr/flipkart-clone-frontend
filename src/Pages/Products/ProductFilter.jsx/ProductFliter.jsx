@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ProductFliter = () => {
+const ProductFliter = ({ productFilters }) => {
     return (
         <div className='product-filter'>
             <div className="filter-header">
@@ -13,14 +13,16 @@ const ProductFliter = () => {
                     <p>CATEGORIES</p>
                 </div>
                 <div className="category">
-                    <div className="c-1">
-                        <input type="checkbox" name="" id="" />
-                        <span>Mobile</span>
-                    </div>
-                    <div className="c-1">
-                        <input type="checkbox" name="" id="" />
-                        <span>Accoseries</span>
-                    </div>
+                    {
+                        productFilters.categories?.map((category, idx) => {
+                            return (
+                                <div key={idx} className="c-1">
+                                    <input type="checkbox" name="category" id="" />
+                                    <span>{category}</span>
+                                </div>
+                            )
+                        })
+                    }
                 </div>
             </div>
             <hr />
@@ -36,18 +38,18 @@ const ProductFliter = () => {
             </div>
             <hr />
             <div className="brand">
-                <div className="c-1">
-                    <input type="checkbox" name="" id="" />
-                    <span>Samsung</span>
-                </div>
-                <div className="c-1">
-                    <input type="checkbox" name="" id="" />
-                    <span>Apple</span>
-                </div>
-                <div className="c-1">
-                    <input type="checkbox" name="" id="" />
-                    <span>Realme</span>
-                </div>
+                <p>Brands</p>
+                {
+                    productFilters?.brands?.map((brand, idx) => {
+                        return (
+                            <div key={idx} className="c-1">
+                                <input type="checkbox" value={brand} name={brand} id="" />
+                                <span>{brand}</span>
+                            </div>
+                        )
+                    })
+                }
+
             </div>
             <hr />
             <div className="other">
