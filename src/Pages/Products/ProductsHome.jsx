@@ -69,12 +69,19 @@ const ProductsHome = ({ products }) => {
     const handleSort = (e) => {
         const value = e.target.value;
         setSortType(value)
-        if (value === "plh") {
+        if(value==="sb"){
+            productFilters.sort();
+        }
+       else if (value === "plh") {
             filteredProduct.sort((p1, p2) => (p1.price_value < p2.price_value) ? 1 : (p1.price_value > p2.price_value) ? -1 : 0);
             console.log(filteredProduct);
         }else if(value==="phl"){
             filteredProduct.sort((p1, p2) => (p1.price_value > p2.price_value) ? 1 : (p1.price_value < p2.price_value) ? -1 : 0);
             console.log(filteredProduct);
+        }else if(value==="p"){
+            filteredProduct.sort((p1, p2) => (Number(p1.ratingCount) < Number(p2.ratingCount)) ? 1 : (Number(p1.ratingCount) > Number(p2.ratingCount)) ? -1 : 0);
+        }else if(value==="nf"){
+            filteredProduct.sort((p1, p2) => (new Date(p1.launchDate) < new Date(p2.launchDate)) ? 1 : (new Date(p1.launchDate) > new Date(p2.launchDate)) ? -1 : 0);
         }
     }
 
@@ -84,7 +91,7 @@ const ProductsHome = ({ products }) => {
         <div>
             <div className='product-home-main'>
                 <select onChange={handleSort} className='selection' value={sortType} name="" id="">
-                    <option value={null}>Sort By</option>
+                    <option value={"sb"}>Sort By</option>
                     <option value="plh">Price Low to High</option>
                     <option value="p">Popularity</option>
                     <option value="phl">Price High to Low</option>

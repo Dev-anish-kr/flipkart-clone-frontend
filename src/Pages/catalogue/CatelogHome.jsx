@@ -6,6 +6,7 @@ const CatelogHome = () => {
     const catelogItem=[
         {
             category_type:"Mobile & Tablets",
+            cate_route:"mobile+tablets",
             cate_discription:"Mobile Phones Big Saving Days March 2023",
             visibla_items:[
                 {
@@ -72,6 +73,7 @@ const CatelogHome = () => {
         },
         {
             category_type:"Electronics",
+            cate_route:"electronics",
             cate_discription:"Laptop, Desktop, Watches & More",
             visibla_items:[
                 {
@@ -138,6 +140,7 @@ const CatelogHome = () => {
         },
         {
             category_type:"Sale is Live | TVs & Appliances",
+            cate_route:"tv+appliance",
             cate_discription:"Upto 75% Off",
             visibla_items:[
                 {
@@ -204,6 +207,7 @@ const CatelogHome = () => {
         },
         {
             category_type:"Top Deals on Fashion",
+            cate_route:"fashion",
             cate_discription:"55-70% Off",
             visibla_items:[
                 {
@@ -248,7 +252,7 @@ const CatelogHome = () => {
                 },
                 {
                     image:"assets/Catelog/Fashion/g-bikini.webp",
-                    name:"ONLY, Van Heusen, Chemistry...",
+                    name:"Van Heusen, Chemistry...",
                     offer_Name:"Under ₹599",
                     size:{
                         height:"150px",
@@ -270,6 +274,7 @@ const CatelogHome = () => {
         },
         {
             category_type:"Beauty Product And Toys",
+            cate_route:"beauty+toys",
             cate_discription:"Explore Now!",
             visibla_items:[
                 {
@@ -336,6 +341,7 @@ const CatelogHome = () => {
         },
         {
             category_type:"Super Saver Days",
+            cate_route:"home+furniture",
             cate_discription:"Toys & Stationary",
             visibla_items:[
                 {

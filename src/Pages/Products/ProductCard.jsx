@@ -17,7 +17,7 @@ const ProductCard = ({ product }) => {
                         <h5>{product.name}</h5>
                     </div>
                     <div className="rating">
-                        <p><span>{product.rating}<StarIcon sx={{ width: "0.8rem" }} /></span>{product.ratingCount + " Ratings &" + product.reviewCount + " Reviews"}</p>
+                        <p><span>{product.rating}<StarIcon sx={{ width: "0.8rem" }} /></span>{new Intl.NumberFormat().format(product.ratingCount) + " Ratings &" + product.reviewCount + " Reviews"}</p>
                     </div>
                     <div className="product-desc">
                         <ul>

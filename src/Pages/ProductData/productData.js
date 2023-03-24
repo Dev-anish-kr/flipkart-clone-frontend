@@ -8,7 +8,7 @@ const products = [
         uid: "p0001",
         pid: "s001",
         tags: [
-            "mobile", "samsung galaxy a73", "smartphone", "phone", "samsung", "samsung mobile"
+            "mobile", "samsung galaxy a73", "smart phone", "phone", "samsung", "samsung mobile"
         ],
         images: {
             main: {
@@ -141,6 +141,7 @@ const products = [
         rating: 4.2,
         ratingCount: 445,
         reviewCount: 190,
+        launchDate: "Apr 22 2022",
         availibleOffer: [
             {
                 offerType: "Bank Offer",
@@ -191,7 +192,7 @@ const products = [
         uid: "p0002",
         pid: "s002",
         tags: [
-            "mobile","samsung galaxy f23", "smartphone", "phone", "samsung", "samsung mobile"
+            "mobile", "samsung galaxy f23", "smartphone", "phone", "samsung", "samsung mobile"
         ],
         images: {
             main: {
@@ -318,8 +319,9 @@ const products = [
             },
         ],
         rating: 4.3,
-        ratingCount: "65,485",
+        ratingCount: 65485,
         reviewCount: "12,993",
+        launchDate: "Mar 28 2022",
         availibleOffer: [
             {
                 offerType: "Bank Offer",
@@ -370,7 +372,7 @@ const products = [
         uid: "p0003",
         pid: "s002",
         tags: [
-            "mobile","samsung galaxy s21", "smartphone", "phone", "samsung", "samsung mobile"
+            "mobile", "samsung galaxy s21", "smartphone", "phone", "samsung", "samsung mobile"
         ],
         images: {
             main: {
@@ -494,8 +496,9 @@ const products = [
             },
         ],
         rating: 4.4,
-        ratingCount: "38,988",
+        ratingCount: 38988,
         reviewCount: "3,796",
+        launchDate: "Jan 25 2022",
         availibleOffer: [
             {
                 offerType: "",
@@ -537,7 +540,7 @@ const products = [
         uid: "p0004",
         pid: "s002",
         tags: [
-            "mobile","samsung galaxy a53" ,"smartphone", "phone", "samsung", "samsung mobile"
+            "mobile", "samsung galaxy a53", "smartphone", "phone", "samsung", "samsung mobile"
         ],
         images: {
             main: {
@@ -680,8 +683,9 @@ const products = [
             },
         ],
         rating: 4,
-        ratingCount: "680",
+        ratingCount: 680,
         reviewCount: "75",
+        launchDate: "Dec 25 2022",
         availibleOffer: [
             {
                 offerType: "",
@@ -850,8 +854,9 @@ const products = [
             },
         ],
         rating: 4.4,
-        ratingCount: "3,055",
+        ratingCount: 3055,
         reviewCount: "327",
+        launchDate: "Sept 25 2022",
         availibleOffer: [
             {
                 offerType: "Bank Offer",
@@ -1015,8 +1020,9 @@ const products = [
             },
         ],
         rating: 4.4,
-        ratingCount: "2,409",
+        ratingCount: 2409,
         reviewCount: "271",
+        launchDate: "Aug 25 2022",
         availibleOffer: [
             {
                 offerType: "Bank Offer",
@@ -1066,7 +1072,7 @@ const products = [
         uid: "p0007",
         pid: "o001",
         tags: [
-            "tablet", "sumsung galaxy tab", "samsung pad", "samsung", "samsung tablet"
+            "tablet", "sumsung galaxy tab", "samsung pad", "samsung", "samsung tablet","samsung tab"
         ],
         images: {
             main: {
@@ -1205,8 +1211,9 @@ const products = [
             },
         ],
         rating: 4.3,
-        ratingCount: "4,694",
+        ratingCount: 4694,
         reviewCount: "432",
+        launchDate: "Oct 25 2022",
         availibleOffer: [
             {
                 offerType: "Bank Offer",
@@ -1260,7 +1267,7 @@ const products = [
         uid: "p0008",
         pid: "o001",
         tags: [
-            "tablet", "apple ipad", "ipad", "apple", "apple tablets"
+            "tablet", "apple ipad", "ipad", "apple", "apple tablets","apple pad"
         ],
         images: {
             main: {
@@ -1396,8 +1403,9 @@ const products = [
             },
         ],
         rating: 4.6,
-        ratingCount: "14,034",
+        ratingCount: 14034,
         reviewCount: "1,241",
+        launchDate: "Fec 24 2022",
         availibleOffer: [
             {
                 offerType: "Bank Offer",
@@ -1443,7 +1451,7 @@ const products = [
         uid: "p0009",
         pid: "b001",
         tags: [
-            "tv", "smart tv", "benq ex led tv", "benq", "benq monitor"
+            "tv", "smart tv", "benq ex led tv", "benq", "benq monitor","benq tv"
         ],
         images: {
             main: {
@@ -1575,8 +1583,9 @@ const products = [
             }
         ],
         rating: 4.2,
-        ratingCount: "13",
+        ratingCount: 13,
         reviewCount: "3",
+        launchDate: "Feb 25 2017",
         availibleOffer: [
             {
                 offerType: "Bank Offer",
@@ -1618,7 +1627,7 @@ const products = [
         uid: "p0010",
         pid: "b001",
         tags: [
-            "tv", "smart tv", "oneplus", "oneplus tv", "one plus y1s"
+            "tv", "smart tv", "oneplus", "oneplus tv", "one plus y1s", "oneplus smart tv"
         ],
         images: {
             main: {
@@ -1750,8 +1759,9 @@ const products = [
             }
         ],
         rating: 4.3,
-        ratingCount: "1,49,177",
+        ratingCount: 149177,
         reviewCount: "13,625",
+        launchDate: "June 25 2022",
         availibleOffer: [
             {
                 offerType: "Bank Offer",
@@ -1797,7 +1807,7 @@ const products = [
         uid: "p0011",
         pid: "b001",
         tags: [
-            "mi tv", "smart tv", "mi 5a", "mi", "mi smart tv"
+            "mi tv", "smart tv", "mi 5a","mi 5a tv", "mi", "mi smart tv"
         ],
         images: {
             main: {
@@ -1929,8 +1939,9 @@ const products = [
             }
         ],
         rating: 4.4,
-        ratingCount: "3,45,382",
+        ratingCount: 345382,
         reviewCount: "32,663",
+        launchDate: "Mar 25 2021",
         availibleOffer: [
             {
                 offerType: "Bank Offer",
@@ -1976,7 +1987,7 @@ const products = [
         uid: "p0012",
         pid: "b001",
         tags: [
-            "mobile", "smartphone", "phone", "samsung", "samsung mobile"
+            "acer tv", "smart tv", "acer android","acer i series tv", "acer", "acer smart tv"
         ],
         images: {
             main: {
@@ -2108,8 +2119,9 @@ const products = [
             }
         ],
         rating: 4.4,
-        ratingCount: "3,451",
+        ratingCount: 3451,
         reviewCount: "652",
+        launchDate: "Mar 25 2018",
         availibleOffer: [
             {
                 offerType: "Bank Offer",
@@ -2159,7 +2171,7 @@ const products = [
         uid: "p0013",
         pid: "l001",
         tags: [
-            "mobile", "smartphone", "phone", "samsung", "samsung mobile"
+            "laptop","laptopes", "slim laptop", "realme", "realme laptop", "realme book slim i5 gen","i5 processor laptop"
         ],
         images: {
             main: {
@@ -2304,8 +2316,9 @@ const products = [
             },
         ],
         rating: 4.4,
-        ratingCount: "7,308",
+        ratingCount: 7308,
         reviewCount: "978",
+        launchDate: "Mar 25 2019",
         availibleOffer: [
             {
                 offerType: "Bank Offer",
@@ -2348,7 +2361,7 @@ const products = [
         uid: "p0014",
         pid: "l001",
         tags: [
-            "mobile", "smartphone", "phone", "samsung", "samsung mobile"
+            "laptop","laptopes", "asus laptop", "asus", "asus gaming laptop","asus gaming laptop", "asus tuf gaming laptop slim i5 gen","ryzen processor laptop","ryzen5 processor laptop"
         ],
         images: {
             main: {
@@ -2507,8 +2520,9 @@ const products = [
             },
         ],
         rating: 4.4,
-        ratingCount: "1,649",
+        ratingCount: 1649,
         reviewCount: "200",
+        launchDate: "Mar 25 2020",
         availibleOffer: [
             {
                 offerType: "Bank Offer",
@@ -2559,7 +2573,7 @@ const products = [
         uid: "p0015",
         pid: "l001",
         tags: [
-            "mobile", "smartphone", "phone", "samsung", "samsung mobile"
+            "laptop","laptopes", "slim laptop", "asus", "asus laptop", "asus vivobook core i7","i7 processor laptop", "asus i7 processor laptop"
         ],
         images: {
             main: {
@@ -2722,8 +2736,9 @@ const products = [
             },
         ],
         rating: 4.2,
-        ratingCount: "192",
+        ratingCount: 192,
         reviewCount: "24",
+        launchDate: "Mar 25 2007",
         availibleOffer: [
             {
                 offerType: "Bank Offer",
@@ -2774,7 +2789,7 @@ const products = [
         uid: "p00016",
         pid: "l001",
         tags: [
-            "mobile", "smartphone", "phone", "samsung", "samsung mobile"
+            "laptop","laptopes", "thin laptop", "slim laptop", "hp", "hp laptop", "hp 15s i5 12gen","i5 processor laptop","hp i5 processor laptop"
         ],
         images: {
             main: {
@@ -2941,8 +2956,9 @@ const products = [
             },
         ],
         rating: 4.2,
-        ratingCount: "2,158",
+        ratingCount: 2158,
         reviewCount: "173",
+        launchDate: "Mar 25 2014",
         availibleOffer: [
             {
                 offerType: "Bank Offer",
@@ -2993,7 +3009,7 @@ const products = [
         uid: "p0017",
         pid: "r001",
         tags: [
-            "mobile", "smartphone", "phone", "samsung", "samsung mobile"
+            "mobile", "smartphone", "phone", "redmi", "redmi mobile", "best redmi phones" ,"redmi note 12 pro", "best redmi phones" ,"redmi note", "5g phone"
         ],
         images: {
             main: {
@@ -3144,8 +3160,9 @@ const products = [
             },
         ],
         rating: 4.3,
-        ratingCount: "11,488",
+        ratingCount: 11488,
         reviewCount: "1,243",
+        launchDate: "Mar 25 2015",
         availibleOffer: [
             {
                 offerType: "Bank Offer",
@@ -3191,7 +3208,7 @@ const products = [
         uid: "p0018",
         pid: "r002",
         tags: [
-            "mobile", "smartphone", "phone", "samsung", "samsung mobile"
+            "mobile", "smartphone", "phone", "redmi", "redmi mobile", "best redmi phones","redmi note 11t","5g phone","5g mobile","redmi 5g mobile"
         ],
         images: {
             main: {
@@ -3319,8 +3336,9 @@ const products = [
             },
         ],
         rating: 4.3,
-        ratingCount: "3,148",
+        ratingCount: 3148,
         reviewCount: "259",
+        launchDate: "Mar 25 2016",
         availibleOffer: [
             {
                 offerType: "Bank Offer",
@@ -3366,7 +3384,7 @@ const products = [
         uid: "p0019",
         pid: "r001",
         tags: [
-            "mobile", "smartphone", "phone", "samsung", "samsung mobile"
+            "mobile", "smartphone", "redmi", "redmi note 11 pro", "redmi mobile", "best redmi phones" ,"redmi 5g phone", "5g phone"
         ],
         images: {
             main: {
@@ -3499,8 +3517,9 @@ const products = [
             },
         ],
         rating: 4.2,
-        ratingCount: "6,041",
+        ratingCount: 6041,
         reviewCount: "496",
+        launchDate: "Mar 25 2017",
         availibleOffer: [
             {
                 offerType: "Bank Offer",
@@ -3546,7 +3565,7 @@ const products = [
         uid: "p0020",
         pid: "r001",
         tags: [
-            "mobile", "smartphone", "phone", "samsung", "samsung mobile"
+            "mobile", "smartphone", "redmi", "redmi 10 lite", "redmi mobile", "best redmi phones" ,"redmi 5g phone", "5g phone"
         ],
         images: {
             main: {
@@ -3675,8 +3694,9 @@ const products = [
             },
         ],
         rating: 4.3,
-        ratingCount: "531",
+        ratingCount: 531,
         reviewCount: "36",
+        launchDate: "Mar 23 2018",
         availibleOffer: [
             {
                 offerType: "Bank Offer",
@@ -3722,7 +3742,7 @@ const products = [
         uid: "p0021",
         pid: "r001",
         tags: [
-            "mobile", "smartphone", "phone", "samsung", "samsung mobile"
+            "mobile", "smartphone", "realme", "realme 10 pro 5g", "realme mobile" ,"realme 5g phone", "5g phone"
         ],
         images: {
             main: {
@@ -3869,8 +3889,9 @@ const products = [
             },
         ],
         rating: 4.4,
-        ratingCount: "11,769",
+        ratingCount: 11769,
         reviewCount: "939",
+        launchDate: "Mar 23 2019",
         availibleOffer: [
             {
                 offerType: "Special Price",
@@ -3916,7 +3937,7 @@ const products = [
         uid: "p0022",
         pid: "r001",
         tags: [
-            "mobile", "smartphone", "phone", "samsung", "samsung mobile"
+            "mobile", "smartphone", "realme", "realme 10", "realme mobile" ,"realme 5g phone", "5g phone"
         ],
         images: {
             main: {
@@ -4071,8 +4092,9 @@ const products = [
             },
         ],
         rating: 4.3,
-        ratingCount: "1,234",
+        ratingCount: 1234,
         reviewCount: "84",
+        launchDate: "Mar 24 2020",
         availibleOffer: [
             {
                 offerType: "Special Price",
@@ -4118,7 +4140,7 @@ const products = [
         uid: "p0023",
         pid: "r001",
         tags: [
-            "mobile", "smartphone", "phone", "samsung", "samsung mobile"
+            "mobile", "smartphone", "realme", "realme 9 5g", "realme mobile" ,"realme 5g phone", "5g phone"
         ],
         images: {
             main: {
@@ -4273,8 +4295,9 @@ const products = [
             },
         ],
         rating: 4.5,
-        ratingCount: "39,328",
+        ratingCount: 39328,
         reviewCount: "2,229",
+        launchDate: "Feb 25 2018",
         availibleOffer: [
             {
                 offerType: "Special Price",
@@ -4321,7 +4344,7 @@ const products = [
         uid: "p0024",
         pid: "r001",
         tags: [
-            "mobile", "smartphone", "phone", "samsung", "samsung mobile"
+            "mobile", "smartphone", "realme", "realme narzo 50a", "realme mobile" ,"realme phone", "phone"
         ],
         images: {
             main: {
@@ -4457,8 +4480,9 @@ const products = [
             },
         ],
         rating: 3.9,
-        ratingCount: "390",
+        ratingCount: 390,
         reviewCount: "23",
+        launchDate: "Feb 25 2010",
         availibleOffer: [
             {
                 offerType: "Special Price",
@@ -4508,7 +4532,7 @@ const products = [
         uid: "p0025",
         pid: "r001",
         tags: [
-            "mobile", "smartphone", "phone", "samsung", "samsung mobile"
+            "canon", "camera", "best cameras", "canon camera", "canon eos 3000d dslr camera 1","camera canon"
         ],
         images: {
             main: {
@@ -4658,8 +4682,9 @@ const products = [
             },
         ],
         rating: 4.3,
-        ratingCount: "1,234",
+        ratingCount: 1234,
         reviewCount: "84",
+        launchDate: "Feb 25 2011",
         availibleOffer: [
             {
                 offerType: "",
@@ -4705,7 +4730,7 @@ const products = [
         uid: "p0026",
         pid: "r001",
         tags: [
-            "mobile", "smartphone", "phone", "samsung", "samsung mobile"
+            "sony", "camera", "best cameras", "sony camera", "sony alpha iclc-6100y aps-c mirrorless camera with dual lense","camera sony"
         ],
         images: {
             main: {
@@ -4864,8 +4889,9 @@ const products = [
             },
         ],
         rating: 4.6,
-        ratingCount: "265",
+        ratingCount: 265,
         reviewCount: "48",
+        launchDate: "Feb 25 2012",
         availibleOffer: [
             {
                 offerType: "",
@@ -4911,7 +4937,7 @@ const products = [
         uid: "p0027",
         pid: "r001",
         tags: [
-            "mobile", "smartphone", "phone", "samsung", "samsung mobile"
+            "canon", "camera", "best cameras", "canon camera", "canon eos m50 dslr camera 1", "canon eos m50 mark ii mirrorless camera stm lens","camera canon"
         ],
         images: {
             main: {
@@ -5052,8 +5078,9 @@ const products = [
             },
         ],
         rating: 4.4,
-        ratingCount: "1,022",
+        ratingCount: 1022,
         reviewCount: "112",
+        launchDate: "Feb 25 2013",
         availibleOffer: [
             {
                 offerType: "",
@@ -5099,7 +5126,7 @@ const products = [
         uid: "p0028",
         pid: "r001",
         tags: [
-            "mobile", "smartphone", "phone", "samsung", "samsung mobile"
+            "sony", "camera", "best cameras", "sony camera", "sony alpha icle-6400l aps-c mirrorless camera with dual lense","camera sony"
         ],
         images: {
             main: {
@@ -5258,8 +5285,9 @@ const products = [
             },
         ],
         rating: 4.6,
-        ratingCount: "532",
+        ratingCount: 532,
         reviewCount: "73",
+        launchDate: "Feb 25 2014",
         availibleOffer: [
             {
                 offerType: "",
@@ -5305,7 +5333,7 @@ const products = [
         uid: "p0029",
         pid: "r001",
         tags: [
-            "mobile", "smartphone", "phone", "samsung", "samsung mobile"
+            "washing machine", "washing machine ifb", "ifb washing maching", "ifb", "ifb 6 kg 5 star 2x power stem, hard water washing machine fully automatic washing machine in-built heater washing machine"
         ],
         images: {
             main: {
@@ -5403,7 +5431,7 @@ const products = [
             "5 Star Rating",
             "6 kg",
             "4 Years Comprehensive Warranty, 10 Years Motor Warranty, 10 Years Spares",
-            ],
+        ],
         specifications: [
             {
                 sp_name: "In The Box",
@@ -5455,8 +5483,9 @@ const products = [
             },
         ],
         rating: 4.2,
-        ratingCount: "8,515",
+        ratingCount: 8515,
         reviewCount: "718",
+        launchDate: "Feb 25 2015",
         availibleOffer: [
             {
                 offerType: "",
@@ -5498,7 +5527,7 @@ const products = [
         uid: "p0030",
         pid: "r001",
         tags: [
-            "mobile", "smartphone", "phone", "samsung", "samsung mobile"
+            "washing machine", "washing machine lg", "lg washing machine", "lg", "lg 8 kg hard water washing machine fully automatic washing machine in-built heater washing machine"
         ],
         images: {
             main: {
@@ -5597,7 +5626,7 @@ const products = [
             "5 Star Rating",
             "8 kg",
             "4 Years Comprehensive Warranty, 10 Years Motor Warranty, 10 Years Spares",
-            ],
+        ],
         specifications: [
             {
                 sp_name: "In The Box",
@@ -5645,8 +5674,9 @@ const products = [
             },
         ],
         rating: 4.4,
-        ratingCount: "766",
+        ratingCount: 766,
         reviewCount: "72",
+        launchDate: "Feb 25 2016",
         availibleOffer: [
             {
                 offerType: "",
@@ -5683,6 +5713,4 @@ const products = [
     },
 
 ]
-
-
 export default products
