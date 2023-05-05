@@ -113,6 +113,7 @@
 .cc-right .remove {
     margin: 1rem 0.5rem;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .cc-right .delevery {

@@ -1,15 +1,20 @@
 import React, { useState } from 'react'
 import "./checkout.css"
-const CheckoutHome = ({ cartItems }) => {
-    var totalPrice = 0
+import { useSelector } from 'react-redux'
+import { getUserInfo } from '../../features/userInfoFetch/userInfoSlice'
+const CheckoutHome = () => {
+    const userInfo = useSelector(getUserInfo);
+    const [selected, setSelected] = useState(1)
 
+    if (!userInfo?.username) {
+        return <p>Please Login First...</p>
+    }
+    const cartItems = userInfo?.cartItems;
+    let totalPrice = 0
     cartItems.map(item => {
         totalPrice = totalPrice + item.price_value;
         return null;
     })
-
-    const [selected, setSelected] = useState(1)
-    console.log(selected);
 
     return (
         <div className='checkout-home-outer'>

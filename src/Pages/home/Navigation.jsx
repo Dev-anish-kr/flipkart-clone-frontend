@@ -6,14 +6,19 @@ import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import Dialog from '@mui/material/Dialog';
 import DialogContent from '@mui/material/DialogContent';
 import TextField from "@mui/material/TextField";
+import { getUserInfo, loadInformation, setInformation } from '../../features/userInfoFetch/userInfoSlice';
 
 import swal from 'sweetalert';
+import { useDispatch, useSelector } from 'react-redux';
 
 
 
 
-const Navigation = ({ cartValue, handleSearch }) => {
+const Navigation = ({ handleSearch }) => {
     const Navigate = useNavigate();
+    const dispatch = useDispatch();
+    const userInfo = useSelector(getUserInfo);
+    console.log(userInfo);
 
     const [open, setOpen] = React.useState(false);
     const [search, setSearch] = useState("");
@@ -47,14 +52,15 @@ const Navigation = ({ cartValue, handleSearch }) => {
     };
 
     const [inpName, setInpName] = useState("");
-    const [name, setName] = useState("");
+    // const [name, setName] = useState("");
 
     const handleInputName = (e) => {
         const value = e.target.value;
         setInpName(value)
     }
     const handleName = (e) => {
-        setName(inpName)
+        dispatch(setInformation({ username: inpName, cartItems: [] }));
+        dispatch(loadInformation())
         handleClose();
     }
 
@@ -68,7 +74,7 @@ const Navigation = ({ cartValue, handleSearch }) => {
 
                 </div>
 
-                {name ? <span>{name}</span> : <button onClick={handleClickOpen}>Login</button>}
+                {userInfo?.username ? <span>{userInfo.username}</span> : <button onClick={handleClickOpen}>Login</button>}
 
 
                 <span>Become a Seller</span>
@@ -77,7 +83,7 @@ const Navigation = ({ cartValue, handleSearch }) => {
 
                 <span onClick={() => {
                     Navigate("/cart")
-                }} className='cart'> <ShoppingCartIcon /><span className='cartvalue'>{cartValue}</span> Cart</span>
+                }} className='cart'> <ShoppingCartIcon /><span className='cartvalue'>{userInfo?.cartItems?.length}</span> Cart</span>
 
 
             </div>

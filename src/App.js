@@ -11,29 +11,39 @@ import products from "./Pages/ProductData/productData"
 import CartHome from './Pages/cart/CartHome';
 import { useState } from 'react';
 import CheckoutHome from './Pages/checkout/CheckoutHome';
+import { useDispatch, useSelector } from 'react-redux';
+import { getUserInfo, loadInformation, setInformation } from './features/userInfoFetch/userInfoSlice';
 
 function App() {
-    const navigate=useNavigate();
+    const navigate = useNavigate();
     const [searchValue, setSearchValue] = useState();
+    const dispatch = useDispatch();
+
+    const userInfo = useSelector(getUserInfo)
 
     const handleSearch = async (value) => {
-       await setSearchValue(value)
-       navigate("/search")
-       
+        await setSearchValue(value)
+        navigate("/search")
+
     }
 
-    const [cartItems, setCartItem] = useState([]);
-
     const cartItemSetter = (item) => {
-        setCartItem(prev => {
-            return [...prev, item]
-        })
+        // setCartItem(prev => {
+        //     return [...prev, item]
+        // })
+        if (userInfo.username) {
+            dispatch(setInformation({ username: userInfo?.username, cartItems: [...userInfo?.cartItems, item] }))
+            dispatch(loadInformation())
+        } else {
+            alert("Login First");
+        }
+
     }
 
     const searchedProds = products.filter((prodw) => {
         const tags = prodw.tags;
         return (
-            prodw.tags.indexOf(searchValue)!==-1||prodw.tags.indexOf(tags.filter(tag => {
+            prodw.tags.indexOf(searchValue) !== -1 || prodw.tags.indexOf(tags.filter(tag => {
                 return tag.includes(searchValue)
             })[0]) !== -1
         )
@@ -48,7 +58,7 @@ function App() {
 
     return (
         <main className='app'>
-            <Navigation handleSearch={handleSearch} cartValue={cartItems.length} />
+            <Navigation handleSearch={handleSearch} />
             <Routes>
                 <Route exact path='/' element={<Home />} />
                 <Route exact path='/categories' element={<CatelogHome />} />
@@ -68,8 +78,8 @@ function App() {
                 <Route exact path='/grocery' element={<ProductsHome category={[]} products={grocery} />} />
                 <Route exact path="search" element={<ProductsHome category={[]} products={searchedProds} />} />
                 {/* category routes */}
-                <Route exact path="/cart" element={<CartHome cartItems={cartItems} />} />
-                <Route exact path="/checkout" element={<CheckoutHome cartItems={cartItems} />} />
+                <Route exact path="/cart" element={<CartHome />} />
+                <Route exact path="/checkout" element={<CheckoutHome />} />
             </Routes>
             <Footer />
         </main>
