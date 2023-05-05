@@ -3615,19 +3615,19 @@ const products = [
                 {
                     link: "assets/Product/Mobile-Tab/Redmi/redmiNote10Lite/other/3.webp",
                     size_2: {
-                        height: "54px",
+                        height: "6px",
                     },
                     size_3: {
-                        height: "417px",
+                        height: "45px",
                     }
                 },
                 {
                     link: "assets/Product/Mobile-Tab/Redmi/redmiNote10Lite/other/4.webp",
                     size_2: {
-                        height: "7px",
+                        height: "45px",
                     },
                     size_3: {
-                        height: "48px",
+                        height: "380px",
                     }
                 },
 

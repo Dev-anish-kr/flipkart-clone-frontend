@@ -10,6 +10,7 @@ import { loadInformation } from './features/userInfoFetch/userInfoSlice';
 
 store.dispatch(loadInformation())
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
   <React.StrictMode>
     <Provider store={store}>

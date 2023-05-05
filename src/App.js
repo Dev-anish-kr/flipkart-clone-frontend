@@ -13,6 +13,7 @@ import { useState } from 'react';
 import CheckoutHome from './Pages/checkout/CheckoutHome';
 import { useDispatch, useSelector } from 'react-redux';
 import { getUserInfo, loadInformation, setInformation } from './features/userInfoFetch/userInfoSlice';
+import ScrollToTop from './ScrollToTop';
 
 function App() {
     const navigate = useNavigate();
@@ -28,9 +29,6 @@ function App() {
     }
 
     const cartItemSetter = (item) => {
-        // setCartItem(prev => {
-        //     return [...prev, item]
-        // })
         if (userInfo.username) {
             dispatch(setInformation({ username: userInfo?.username, cartItems: [...userInfo?.cartItems, item] }))
             dispatch(loadInformation())
@@ -82,6 +80,7 @@ function App() {
                 <Route exact path="/checkout" element={<CheckoutHome />} />
             </Routes>
             <Footer />
+            <ScrollToTop />
         </main>
     );
 }
